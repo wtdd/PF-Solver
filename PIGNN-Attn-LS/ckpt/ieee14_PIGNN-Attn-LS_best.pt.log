@@ -1,0 +1,584 @@
+Log file           : ieee14_PIGNN-Attn-LS_best.pt.log
+Building PIGNN-Attn-LS compact cache from: IEEE_14
+Data cached         : pignn_attn_ls_common_v3.pt
+Using device       : cuda
+Data directory     : IEEE_14
+Model              : GNSMsg_EdgeSelfAttn
+Paper config       : d=4, hidden=16, K=40, heads=4, attn_layers=1
+PINN/supervised wt : True/0
+Armijo/V-limit     : True/True
+Checkpoint         : ieee14_PIGNN-Attn-LS_best.pt
+Dataset sizes      : train=36000, val=4000, heatmap_test=4000, ill_test=100
+Batch mode         : plain (shared fixed topology)
+Scheduler          : cosine
+Epoch 0001/200 | train loss=2.839702e-02 phys=2.839702e-02 sup=2.133423e-05 | val loss=3.110971e-03 phys=3.110971e-03 sup=7.504593e-06 | lr=9.985e-05 | time=371.06s
+🔻 LR reduced         : 1.000e-04 -> 9.985e-05
+🟩 Saved best checkpoint: ieee14_PIGNN-Attn-LS_best.pt
+Epoch 0002/200 | train loss=3.123654e-03 phys=3.123654e-03 sup=4.856894e-06 | val loss=2.963090e-03 phys=2.963090e-03 sup=3.946234e-06 | lr=9.939e-05 | time=369.46s
+🔻 LR reduced         : 9.985e-05 -> 9.939e-05
+🟩 Saved best checkpoint: ieee14_PIGNN-Attn-LS_best.pt
+Epoch 0003/200 | train loss=2.996854e-03 phys=2.996854e-03 sup=3.466243e-06 | val loss=2.891828e-03 phys=2.891828e-03 sup=4.877596e-06 | lr=9.863e-05 | time=365.97s
+🔻 LR reduced         : 9.939e-05 -> 9.863e-05
+🟩 Saved best checkpoint: ieee14_PIGNN-Attn-LS_best.pt
+Epoch 0004/200 | train loss=2.916115e-03 phys=2.916115e-03 sup=2.671087e-06 | val loss=2.826218e-03 phys=2.826218e-03 sup=3.218508e-06 | lr=9.758e-05 | time=365.54s
+🔻 LR reduced         : 9.863e-05 -> 9.758e-05
+🟩 Saved best checkpoint: ieee14_PIGNN-Attn-LS_best.pt
+Epoch 0005/200 | train loss=2.873550e-03 phys=2.873550e-03 sup=2.532976e-06 | val loss=2.780916e-03 phys=2.780916e-03 sup=1.918163e-06 | lr=9.623e-05 | time=321.56s
+🔻 LR reduced         : 9.758e-05 -> 9.623e-05
+🟩 Saved best checkpoint: ieee14_PIGNN-Attn-LS_best.pt
+Epoch 0006/200 | train loss=2.836017e-03 phys=2.836017e-03 sup=1.508796e-06 | val loss=2.757853e-03 phys=2.757853e-03 sup=1.647230e-06 | lr=9.460e-05 | time=299.08s
+🔻 LR reduced         : 9.623e-05 -> 9.460e-05
+🟩 Saved best checkpoint: ieee14_PIGNN-Attn-LS_best.pt
+Epoch 0007/200 | train loss=2.816774e-03 phys=2.816774e-03 sup=1.443042e-06 | val loss=2.747718e-03 phys=2.747718e-03 sup=1.666472e-06 | lr=9.271e-05 | time=273.61s
+🔻 LR reduced         : 9.460e-05 -> 9.271e-05
+🟩 Saved best checkpoint: ieee14_PIGNN-Attn-LS_best.pt
+Epoch 0008/200 | train loss=2.814148e-03 phys=2.814148e-03 sup=1.814221e-06 | val loss=2.757137e-03 phys=2.757137e-03 sup=2.076197e-06 | lr=9.055e-05 | time=272.68s
+🔻 LR reduced         : 9.271e-05 -> 9.055e-05
+🔘 No improvement     : 1/20 (best=2.747718e-03)
+Epoch 0009/200 | train loss=2.802248e-03 phys=2.802248e-03 sup=1.638046e-06 | val loss=2.720244e-03 phys=2.720244e-03 sup=8.476747e-07 | lr=8.814e-05 | time=268.33s
+🔻 LR reduced         : 9.055e-05 -> 8.814e-05
+🟩 Saved best checkpoint: ieee14_PIGNN-Attn-LS_best.pt
+Epoch 0010/200 | train loss=2.790139e-03 phys=2.790139e-03 sup=1.237867e-06 | val loss=2.723202e-03 phys=2.723202e-03 sup=1.858886e-06 | lr=8.550e-05 | time=268.98s
+🔻 LR reduced         : 8.814e-05 -> 8.550e-05
+🔘 No improvement     : 1/20 (best=2.720244e-03)
+Epoch 0011/200 | train loss=2.781472e-03 phys=2.781472e-03 sup=1.135467e-06 | val loss=2.705203e-03 phys=2.705203e-03 sup=6.831097e-07 | lr=8.265e-05 | time=270.48s
+🔻 LR reduced         : 8.550e-05 -> 8.265e-05
+🟩 Saved best checkpoint: ieee14_PIGNN-Attn-LS_best.pt
+Epoch 0012/200 | train loss=2.778072e-03 phys=2.778072e-03 sup=1.114034e-06 | val loss=2.699351e-03 phys=2.699351e-03 sup=6.375688e-07 | lr=7.960e-05 | time=269.03s
+🔻 LR reduced         : 8.265e-05 -> 7.960e-05
+🔘 No improvement     : 1/20 (best=2.705203e-03)
+Epoch 0013/200 | train loss=2.765156e-03 phys=2.765156e-03 sup=6.888238e-07 | val loss=2.691705e-03 phys=2.691705e-03 sup=4.360836e-07 | lr=7.636e-05 | time=268.11s
+🔻 LR reduced         : 7.960e-05 -> 7.636e-05
+🟩 Saved best checkpoint: ieee14_PIGNN-Attn-LS_best.pt
+Epoch 0014/200 | train loss=2.759963e-03 phys=2.759963e-03 sup=6.531377e-07 | val loss=2.688960e-03 phys=2.688960e-03 sup=5.352063e-07 | lr=7.297e-05 | time=269.23s
+🔻 LR reduced         : 7.636e-05 -> 7.297e-05
+🔘 No improvement     : 1/20 (best=2.691705e-03)
+Epoch 0015/200 | train loss=2.766849e-03 phys=2.766849e-03 sup=1.225416e-06 | val loss=2.691731e-03 phys=2.691731e-03 sup=1.163623e-06 | lr=6.944e-05 | time=273.93s
+🔻 LR reduced         : 7.297e-05 -> 6.944e-05
+🔘 No improvement     : 2/20 (best=2.691705e-03)
+Epoch 0016/200 | train loss=2.751907e-03 phys=2.751907e-03 sup=5.079720e-07 | val loss=2.680220e-03 phys=2.680220e-03 sup=4.606599e-07 | lr=6.580e-05 | time=279.79s
+🔻 LR reduced         : 6.944e-05 -> 6.580e-05
+🟩 Saved best checkpoint: ieee14_PIGNN-Attn-LS_best.pt
+Epoch 0017/200 | train loss=2.746984e-03 phys=2.746984e-03 sup=3.939046e-07 | val loss=2.676388e-03 phys=2.676388e-03 sup=4.091317e-07 | lr=6.206e-05 | time=276.09s
+🔻 LR reduced         : 6.580e-05 -> 6.206e-05
+🔘 No improvement     : 1/20 (best=2.680220e-03)
+Epoch 0018/200 | train loss=2.744030e-03 phys=2.744030e-03 sup=3.569003e-07 | val loss=2.673741e-03 phys=2.673741e-03 sup=3.374252e-07 | lr=5.824e-05 | time=270.71s
+🔻 LR reduced         : 6.206e-05 -> 5.824e-05
+🔘 No improvement     : 2/20 (best=2.680220e-03)
+Epoch 0019/200 | train loss=2.742354e-03 phys=2.742354e-03 sup=3.636679e-07 | val loss=2.676371e-03 phys=2.676371e-03 sup=6.152816e-07 | lr=5.438e-05 | time=270.61s
+🔻 LR reduced         : 5.824e-05 -> 5.438e-05
+🔘 No improvement     : 3/20 (best=2.680220e-03)
+Epoch 0020/200 | train loss=2.739841e-03 phys=2.739841e-03 sup=3.241061e-07 | val loss=2.672300e-03 phys=2.672300e-03 sup=6.727964e-07 | lr=5.050e-05 | time=272.60s
+🔻 LR reduced         : 5.438e-05 -> 5.050e-05
+🔘 No improvement     : 4/20 (best=2.680220e-03)
+Epoch 0021/200 | train loss=2.737250e-03 phys=2.737250e-03 sup=2.301166e-07 | val loss=2.667972e-03 phys=2.667972e-03 sup=3.223258e-07 | lr=4.662e-05 | time=274.02s
+🔻 LR reduced         : 5.050e-05 -> 4.662e-05
+🟩 Saved best checkpoint: ieee14_PIGNN-Attn-LS_best.pt
+Epoch 0022/200 | train loss=2.734972e-03 phys=2.734972e-03 sup=2.000794e-07 | val loss=2.666512e-03 phys=2.666512e-03 sup=1.877718e-07 | lr=4.276e-05 | time=208.80s
+🔻 LR reduced         : 4.662e-05 -> 4.276e-05
+🔘 No improvement     : 1/20 (best=2.667972e-03)
+Epoch 0023/200 | train loss=2.733630e-03 phys=2.733630e-03 sup=1.858221e-07 | val loss=2.664331e-03 phys=2.664331e-03 sup=1.386302e-07 | lr=3.894e-05 | time=215.02s
+🔻 LR reduced         : 4.276e-05 -> 3.894e-05
+🔘 No improvement     : 2/20 (best=2.667972e-03)
+Epoch 0024/200 | train loss=2.732213e-03 phys=2.732213e-03 sup=1.818855e-07 | val loss=2.664180e-03 phys=2.664180e-03 sup=3.733678e-07 | lr=3.520e-05 | time=269.72s
+🔻 LR reduced         : 3.894e-05 -> 3.520e-05
+🔘 No improvement     : 3/20 (best=2.667972e-03)
+Epoch 0025/200 | train loss=2.730831e-03 phys=2.730831e-03 sup=1.692993e-07 | val loss=2.660923e-03 phys=2.660923e-03 sup=1.301236e-07 | lr=3.156e-05 | time=271.23s
+🔻 LR reduced         : 3.520e-05 -> 3.156e-05
+🔘 No improvement     : 4/20 (best=2.667972e-03)
+Epoch 0026/200 | train loss=2.729327e-03 phys=2.729327e-03 sup=1.310297e-07 | val loss=2.659738e-03 phys=2.659738e-03 sup=9.657575e-08 | lr=2.803e-05 | time=273.77s
+🔻 LR reduced         : 3.156e-05 -> 2.803e-05
+🔘 No improvement     : 5/20 (best=2.667972e-03)
+Epoch 0027/200 | train loss=2.729007e-03 phys=2.729007e-03 sup=1.676248e-07 | val loss=2.661764e-03 phys=2.661764e-03 sup=2.693881e-07 | lr=2.464e-05 | time=273.19s
+🔻 LR reduced         : 2.803e-05 -> 2.464e-05
+🔘 No improvement     : 6/20 (best=2.667972e-03)
+Epoch 0028/200 | train loss=2.728355e-03 phys=2.728355e-03 sup=1.681396e-07 | val loss=2.658887e-03 phys=2.658887e-03 sup=1.247400e-07 | lr=2.140e-05 | time=272.22s
+🔻 LR reduced         : 2.464e-05 -> 2.140e-05
+🔘 No improvement     : 7/20 (best=2.667972e-03)
+Epoch 0029/200 | train loss=2.726310e-03 phys=2.726310e-03 sup=1.007022e-07 | val loss=2.656589e-03 phys=2.656589e-03 sup=7.484782e-08 | lr=1.835e-05 | time=271.37s
+🔻 LR reduced         : 2.140e-05 -> 1.835e-05
+🟩 Saved best checkpoint: ieee14_PIGNN-Attn-LS_best.pt
+Epoch 0030/200 | train loss=2.725438e-03 phys=2.725438e-03 sup=9.256644e-08 | val loss=2.657695e-03 phys=2.657695e-03 sup=1.509028e-07 | lr=1.550e-05 | time=271.85s
+🔻 LR reduced         : 1.835e-05 -> 1.550e-05
+🔘 No improvement     : 1/20 (best=2.656589e-03)
+Epoch 0031/200 | train loss=2.724946e-03 phys=2.724946e-03 sup=8.627559e-08 | val loss=2.655766e-03 phys=2.655766e-03 sup=6.172395e-08 | lr=1.286e-05 | time=245.56s
+🔻 LR reduced         : 1.550e-05 -> 1.286e-05
+🔘 No improvement     : 2/20 (best=2.656589e-03)
+Epoch 0032/200 | train loss=2.724157e-03 phys=2.724157e-03 sup=6.999932e-08 | val loss=2.655539e-03 phys=2.655539e-03 sup=6.952153e-08 | lr=1.045e-05 | time=224.81s
+🔻 LR reduced         : 1.286e-05 -> 1.045e-05
+🔘 No improvement     : 3/20 (best=2.656589e-03)
+Epoch 0033/200 | train loss=2.723623e-03 phys=2.723623e-03 sup=6.924319e-08 | val loss=2.654285e-03 phys=2.654285e-03 sup=5.215646e-08 | lr=8.294e-06 | time=224.37s
+🔻 LR reduced         : 1.045e-05 -> 8.294e-06
+🔘 No improvement     : 4/20 (best=2.656589e-03)
+Epoch 0034/200 | train loss=2.723045e-03 phys=2.723045e-03 sup=6.666918e-08 | val loss=2.654169e-03 phys=2.654169e-03 sup=6.249888e-08 | lr=6.395e-06 | time=221.45s
+🔻 LR reduced         : 8.294e-06 -> 6.395e-06
+🔘 No improvement     : 5/20 (best=2.656589e-03)
+Epoch 0035/200 | train loss=2.722637e-03 phys=2.722637e-03 sup=5.679709e-08 | val loss=2.653590e-03 phys=2.653590e-03 sup=4.402709e-08 | lr=4.768e-06 | time=220.77s
+🔻 LR reduced         : 6.395e-06 -> 4.768e-06
+🔘 No improvement     : 6/20 (best=2.656589e-03)
+Epoch 0036/200 | train loss=2.722313e-03 phys=2.722313e-03 sup=4.472218e-08 | val loss=2.653472e-03 phys=2.653472e-03 sup=5.988220e-08 | lr=3.423e-06 | time=222.14s
+🔻 LR reduced         : 4.768e-06 -> 3.423e-06
+🔘 No improvement     : 7/20 (best=2.656589e-03)
+Epoch 0037/200 | train loss=2.722084e-03 phys=2.722084e-03 sup=4.152061e-08 | val loss=2.653196e-03 phys=2.653196e-03 sup=4.198922e-08 | lr=2.368e-06 | time=218.63s
+🔻 LR reduced         : 3.423e-06 -> 2.368e-06
+🔘 No improvement     : 8/20 (best=2.656589e-03)
+Epoch 0038/200 | train loss=2.721904e-03 phys=2.721904e-03 sup=4.070144e-08 | val loss=2.653078e-03 phys=2.653078e-03 sup=3.187375e-08 | lr=1.609e-06 | time=218.23s
+🔻 LR reduced         : 2.368e-06 -> 1.609e-06
+🔘 No improvement     : 9/20 (best=2.656589e-03)
+Epoch 0039/200 | train loss=2.721780e-03 phys=2.721780e-03 sup=4.151875e-08 | val loss=2.652934e-03 phys=2.652934e-03 sup=2.886194e-08 | lr=1.153e-06 | time=217.19s
+🔻 LR reduced         : 1.609e-06 -> 1.153e-06
+🔘 No improvement     : 10/20 (best=2.656589e-03)
+Epoch 0040/200 | train loss=2.721673e-03 phys=2.721673e-03 sup=3.714848e-08 | val loss=2.652855e-03 phys=2.652855e-03 sup=2.872714e-08 | lr=1.000e-06 | time=226.03s
+🔻 LR reduced         : 1.153e-06 -> 1.000e-06
+🔘 No improvement     : 11/20 (best=2.656589e-03)
+Epoch 0041/200 | train loss=2.721617e-03 phys=2.721617e-03 sup=3.771853e-08 | val loss=2.652820e-03 phys=2.652820e-03 sup=3.371227e-08 | lr=1.153e-06 | time=292.37s
+🔘 No improvement     : 12/20 (best=2.656589e-03)
+Epoch 0042/200 | train loss=2.721594e-03 phys=2.721594e-03 sup=4.131501e-08 | val loss=2.652767e-03 phys=2.652767e-03 sup=3.673328e-08 | lr=1.609e-06 | time=292.01s
+🔘 No improvement     : 13/20 (best=2.656589e-03)
+Epoch 0043/200 | train loss=2.721536e-03 phys=2.721536e-03 sup=3.903593e-08 | val loss=2.652703e-03 phys=2.652703e-03 sup=2.592919e-08 | lr=2.368e-06 | time=292.22s
+🔘 No improvement     : 14/20 (best=2.656589e-03)
+Epoch 0044/200 | train loss=2.721494e-03 phys=2.721494e-03 sup=4.127300e-08 | val loss=2.652756e-03 phys=2.652756e-03 sup=3.807474e-08 | lr=3.423e-06 | time=291.75s
+🔘 No improvement     : 15/20 (best=2.656589e-03)
+Epoch 0045/200 | train loss=2.721442e-03 phys=2.721442e-03 sup=4.203014e-08 | val loss=2.652580e-03 phys=2.652580e-03 sup=2.225330e-08 | lr=4.768e-06 | time=291.80s
+🔘 No improvement     : 16/20 (best=2.656589e-03)
+Epoch 0046/200 | train loss=2.721368e-03 phys=2.721368e-03 sup=4.596950e-08 | val loss=2.652578e-03 phys=2.652578e-03 sup=5.456006e-08 | lr=6.395e-06 | time=291.12s
+🔘 No improvement     : 17/20 (best=2.656589e-03)
+Epoch 0047/200 | train loss=2.721352e-03 phys=2.721352e-03 sup=5.491460e-08 | val loss=2.652318e-03 phys=2.652318e-03 sup=3.848718e-08 | lr=8.294e-06 | time=291.27s
+🔘 No improvement     : 18/20 (best=2.656589e-03)
+Epoch 0048/200 | train loss=2.721343e-03 phys=2.721343e-03 sup=6.334754e-08 | val loss=2.652604e-03 phys=2.652604e-03 sup=7.048249e-08 | lr=1.045e-05 | time=291.27s
+🔘 No improvement     : 19/20 (best=2.656589e-03)
+Epoch 0049/200 | train loss=2.721301e-03 phys=2.721301e-03 sup=7.984754e-08 | val loss=2.651988e-03 phys=2.651988e-03 sup=3.369465e-08 | lr=1.286e-05 | time=291.25s
+🔘 No improvement     : 20/20 (best=2.656589e-03)
+Early stopping at epoch 49
+Checkpoint loaded  : OK
+
+===== PIGNN-Attn-LS test metrics (tol=0.001) =====
+samples                         : 4000
+mean max |dP| over non-slack    : 7.039322e-04
+worst max |dP| over non-slack   : 3.114685e-02
+mean max |dQ| over PQ           : 6.076648e-04
+worst max |dQ| over PQ          : 3.971344e-02
+RMSE |dP| over non-slack        : 1.140216e-03
+RMSE |dQ| over PQ               : 9.435310e-04
+voltage/angle joint RMSE        : 1.251783e-03
+convergence rate                : 0.894000
+Success rate (<0.1)             : 1.000000
+Success rate (<0.01)            : 0.990250
+Success rate (<0.001)           : 0.894000
+Test evaluation time             : 6.883497 s
+
+===== Batch Full-Test Summary By Heatmap Cell =====
+X=[-2.0,-1.8], PQ=[-2.0,-1.8]: count:10, ill:0, Ang_MAX:5.765796e-03, Vol_MAX:4.876137e-03, P_MAX:1.271e-02, Q_MAX:2.036e-02, P_RMSE:2.550e-03, Q_RMSE:2.559e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.800000
+X=[-2.0,-1.8], PQ=[-1.8,-1.6]: count:10, ill:0, Ang_MAX:1.819098e-02, Vol_MAX:3.555179e-03, P_MAX:1.452e-02, Q_MAX:8.248e-03, P_RMSE:2.930e-03, Q_RMSE:1.303e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.800000
+X=[-2.0,-1.8], PQ=[-1.6,-1.4]: count:10, ill:0, Ang_MAX:4.485369e-03, Vol_MAX:2.645969e-03, P_MAX:7.247e-03, Q_MAX:7.400e-03, P_RMSE:1.866e-03, Q_RMSE:1.735e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.500000
+X=[-2.0,-1.8], PQ=[-1.4,-1.2]: count:10, ill:0, Ang_MAX:1.094022e-02, Vol_MAX:6.845713e-03, P_MAX:1.996e-02, Q_MAX:2.188e-02, P_RMSE:4.191e-03, Q_RMSE:3.666e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.600000
+X=[-2.0,-1.8], PQ=[-1.2,-1.0]: count:10, ill:0, Ang_MAX:4.158735e-03, Vol_MAX:3.033876e-04, P_MAX:5.806e-03, Q_MAX:5.846e-03, P_RMSE:1.325e-03, Q_RMSE:1.177e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-2.0,-1.8], PQ=[-1.0,-0.8]: count:10, ill:0, Ang_MAX:6.265461e-03, Vol_MAX:3.214836e-03, P_MAX:8.399e-03, Q_MAX:8.660e-03, P_RMSE:1.643e-03, Q_RMSE:1.624e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-2.0,-1.8], PQ=[-0.8,-0.6]: count:10, ill:0, Ang_MAX:6.364733e-03, Vol_MAX:1.065373e-03, P_MAX:3.716e-03, Q_MAX:2.870e-03, P_RMSE:9.897e-04, Q_RMSE:5.149e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-2.0,-1.8], PQ=[-0.6,-0.4]: count:10, ill:0, Ang_MAX:2.996990e-02, Vol_MAX:4.277825e-03, P_MAX:1.603e-02, Q_MAX:5.357e-03, P_RMSE:4.294e-03, Q_RMSE:1.369e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.400000
+X=[-2.0,-1.8], PQ=[-0.4,-0.2]: count:10, ill:0, Ang_MAX:2.053246e-02, Vol_MAX:3.255367e-03, P_MAX:1.643e-02, Q_MAX:6.826e-03, P_RMSE:3.006e-03, Q_RMSE:1.261e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.800000
+X=[-2.0,-1.8], PQ=[-0.2,0.0]: count:10, ill:0, Ang_MAX:1.294330e-02, Vol_MAX:5.617380e-03, P_MAX:1.182e-02, Q_MAX:1.501e-02, P_RMSE:3.774e-03, Q_RMSE:3.445e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.700000, Success rate (<0.001):0.500000
+X=[-2.0,-1.8], PQ=[0.0,0.2]: count:10, ill:0, Ang_MAX:1.256508e-02, Vol_MAX:8.225441e-03, P_MAX:2.416e-02, Q_MAX:2.573e-02, P_RMSE:4.620e-03, Q_RMSE:3.686e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.600000
+X=[-2.0,-1.8], PQ=[0.2,0.4]: count:10, ill:0, Ang_MAX:1.787484e-03, Vol_MAX:2.822876e-04, P_MAX:1.048e-03, Q_MAX:7.758e-04, P_RMSE:4.414e-04, Q_RMSE:2.605e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-2.0,-1.8], PQ=[0.4,0.6]: count:10, ill:0, Ang_MAX:3.224403e-03, Vol_MAX:1.173973e-03, P_MAX:3.883e-03, Q_MAX:4.746e-03, P_RMSE:7.618e-04, Q_RMSE:8.132e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.600000
+X=[-2.0,-1.8], PQ=[0.6,0.8]: count:10, ill:0, Ang_MAX:6.281197e-03, Vol_MAX:1.439691e-03, P_MAX:5.691e-03, Q_MAX:5.397e-03, P_RMSE:1.285e-03, Q_RMSE:1.116e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-2.0,-1.8], PQ=[0.8,1.0]: count:10, ill:0, Ang_MAX:5.559176e-03, Vol_MAX:2.248049e-03, P_MAX:1.302e-02, Q_MAX:8.888e-03, P_RMSE:2.750e-03, Q_RMSE:1.941e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.600000
+X=[-2.0,-1.8], PQ=[1.0,1.2]: count:10, ill:0, Ang_MAX:7.933319e-03, Vol_MAX:1.206875e-03, P_MAX:7.090e-03, Q_MAX:7.045e-03, P_RMSE:1.648e-03, Q_RMSE:1.302e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.600000
+X=[-2.0,-1.8], PQ=[1.2,1.4]: count:10, ill:0, Ang_MAX:4.029334e-03, Vol_MAX:8.096695e-04, P_MAX:2.799e-03, Q_MAX:1.956e-03, P_RMSE:9.745e-04, Q_RMSE:5.211e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.500000
+X=[-2.0,-1.8], PQ=[1.4,1.6]: count:10, ill:0, Ang_MAX:3.104091e-03, Vol_MAX:3.045797e-04, P_MAX:2.326e-03, Q_MAX:1.319e-03, P_RMSE:5.773e-04, Q_RMSE:3.178e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-2.0,-1.8], PQ=[1.6,1.8]: count:10, ill:0, Ang_MAX:2.778977e-03, Vol_MAX:2.182722e-04, P_MAX:1.632e-03, Q_MAX:7.593e-04, P_RMSE:4.331e-04, Q_RMSE:2.438e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-2.0,-1.8], PQ=[1.8,2.0]: count:10, ill:0, Ang_MAX:3.476560e-03, Vol_MAX:1.222849e-03, P_MAX:2.542e-03, Q_MAX:6.173e-03, P_RMSE:5.678e-04, Q_RMSE:8.316e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.8,-1.6], PQ=[-2.0,-1.8]: count:10, ill:0, Ang_MAX:7.505566e-03, Vol_MAX:1.065254e-03, P_MAX:7.488e-03, Q_MAX:4.828e-03, P_RMSE:1.530e-03, Q_RMSE:1.181e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-1.8,-1.6], PQ=[-1.8,-1.6]: count:10, ill:0, Ang_MAX:5.940482e-03, Vol_MAX:3.378391e-04, P_MAX:5.070e-03, Q_MAX:4.217e-03, P_RMSE:1.073e-03, Q_RMSE:6.682e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.700000
+X=[-1.8,-1.6], PQ=[-1.6,-1.4]: count:10, ill:0, Ang_MAX:1.352936e-03, Vol_MAX:4.621744e-04, P_MAX:8.219e-04, Q_MAX:8.084e-04, P_RMSE:2.665e-04, Q_RMSE:2.812e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.8,-1.6], PQ=[-1.4,-1.2]: count:10, ill:0, Ang_MAX:1.923531e-03, Vol_MAX:5.376339e-04, P_MAX:2.313e-03, Q_MAX:1.888e-03, P_RMSE:5.156e-04, Q_RMSE:4.472e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-1.8,-1.6], PQ=[-1.2,-1.0]: count:10, ill:0, Ang_MAX:3.483385e-03, Vol_MAX:5.944967e-04, P_MAX:2.186e-03, Q_MAX:9.631e-04, P_RMSE:6.231e-04, Q_RMSE:2.351e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-1.8,-1.6], PQ=[-1.0,-0.8]: count:10, ill:0, Ang_MAX:2.256662e-03, Vol_MAX:9.037256e-04, P_MAX:5.511e-03, Q_MAX:6.094e-03, P_RMSE:9.026e-04, Q_RMSE:8.563e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-1.8,-1.6], PQ=[-0.8,-0.6]: count:10, ill:0, Ang_MAX:6.391108e-04, Vol_MAX:1.089573e-04, P_MAX:4.647e-04, Q_MAX:4.282e-04, P_RMSE:2.039e-04, Q_RMSE:1.585e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.8,-1.6], PQ=[-0.6,-0.4]: count:10, ill:0, Ang_MAX:1.360387e-03, Vol_MAX:2.970695e-04, P_MAX:2.996e-03, Q_MAX:1.914e-03, P_RMSE:6.682e-04, Q_RMSE:4.687e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-1.8,-1.6], PQ=[-0.4,-0.2]: count:10, ill:0, Ang_MAX:4.277050e-03, Vol_MAX:4.768372e-04, P_MAX:2.391e-03, Q_MAX:7.774e-04, P_RMSE:6.346e-04, Q_RMSE:2.159e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.8,-1.6], PQ=[-0.2,0.0]: count:10, ill:0, Ang_MAX:6.133616e-04, Vol_MAX:5.345345e-04, P_MAX:1.833e-03, Q_MAX:2.097e-03, P_RMSE:3.600e-04, Q_RMSE:3.270e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-1.8,-1.6], PQ=[0.0,0.2]: count:10, ill:0, Ang_MAX:1.475871e-03, Vol_MAX:1.944304e-04, P_MAX:1.380e-03, Q_MAX:9.195e-04, P_RMSE:3.396e-04, Q_RMSE:2.370e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.8,-1.6], PQ=[0.2,0.4]: count:10, ill:0, Ang_MAX:5.683720e-03, Vol_MAX:5.657673e-04, P_MAX:5.625e-03, Q_MAX:3.470e-03, P_RMSE:8.924e-04, Q_RMSE:7.007e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-1.8,-1.6], PQ=[0.4,0.6]: count:10, ill:0, Ang_MAX:2.803176e-03, Vol_MAX:5.784035e-04, P_MAX:2.192e-03, Q_MAX:2.564e-03, P_RMSE:6.432e-04, Q_RMSE:5.107e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.700000
+X=[-1.8,-1.6], PQ=[0.6,0.8]: count:10, ill:0, Ang_MAX:6.835163e-04, Vol_MAX:2.470016e-04, P_MAX:1.069e-03, Q_MAX:1.095e-03, P_RMSE:2.452e-04, Q_RMSE:2.471e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.8,-1.6], PQ=[0.8,1.0]: count:10, ill:0, Ang_MAX:1.838028e-03, Vol_MAX:5.140305e-04, P_MAX:3.784e-03, Q_MAX:2.169e-03, P_RMSE:6.813e-04, Q_RMSE:4.892e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.700000
+X=[-1.8,-1.6], PQ=[1.0,1.2]: count:10, ill:0, Ang_MAX:1.024187e-03, Vol_MAX:2.015829e-04, P_MAX:6.963e-04, Q_MAX:6.570e-04, P_RMSE:2.329e-04, Q_RMSE:1.698e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.8,-1.6], PQ=[1.2,1.4]: count:10, ill:0, Ang_MAX:6.850421e-03, Vol_MAX:5.673170e-04, P_MAX:5.492e-03, Q_MAX:5.250e-03, P_RMSE:1.104e-03, Q_RMSE:1.113e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-1.8,-1.6], PQ=[1.4,1.6]: count:10, ill:0, Ang_MAX:8.579194e-04, Vol_MAX:2.816916e-04, P_MAX:1.471e-03, Q_MAX:1.738e-03, P_RMSE:3.572e-04, Q_RMSE:3.227e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-1.8,-1.6], PQ=[1.6,1.8]: count:10, ill:0, Ang_MAX:1.544684e-03, Vol_MAX:3.627539e-04, P_MAX:2.324e-03, Q_MAX:2.293e-03, P_RMSE:6.062e-04, Q_RMSE:6.005e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-1.8,-1.6], PQ=[1.8,2.0]: count:10, ill:0, Ang_MAX:5.515575e-03, Vol_MAX:1.779556e-03, P_MAX:8.982e-03, Q_MAX:9.933e-03, P_RMSE:1.443e-03, Q_RMSE:1.347e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.600000
+X=[-1.6,-1.4], PQ=[-2.0,-1.8]: count:10, ill:0, Ang_MAX:7.089376e-04, Vol_MAX:1.496077e-04, P_MAX:5.714e-04, Q_MAX:6.095e-04, P_RMSE:1.793e-04, Q_RMSE:1.917e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.6,-1.4], PQ=[-1.8,-1.6]: count:10, ill:0, Ang_MAX:6.781071e-03, Vol_MAX:4.336834e-04, P_MAX:4.019e-03, Q_MAX:4.441e-03, P_RMSE:1.014e-03, Q_RMSE:7.127e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.6,-1.4], PQ=[-1.6,-1.4]: count:10, ill:0, Ang_MAX:1.466572e-03, Vol_MAX:6.067753e-04, P_MAX:1.606e-03, Q_MAX:2.172e-03, P_RMSE:4.448e-04, Q_RMSE:4.253e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-1.6,-1.4], PQ=[-1.4,-1.2]: count:10, ill:0, Ang_MAX:1.355082e-03, Vol_MAX:3.494024e-04, P_MAX:1.101e-03, Q_MAX:8.058e-04, P_RMSE:3.410e-04, Q_RMSE:2.329e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.6,-1.4], PQ=[-1.2,-1.0]: count:10, ill:0, Ang_MAX:2.121389e-03, Vol_MAX:1.355410e-04, P_MAX:1.456e-03, Q_MAX:8.351e-04, P_RMSE:3.340e-04, Q_RMSE:2.001e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.6,-1.4], PQ=[-1.0,-0.8]: count:10, ill:0, Ang_MAX:3.514052e-03, Vol_MAX:9.056330e-04, P_MAX:2.170e-03, Q_MAX:2.095e-03, P_RMSE:5.083e-04, Q_RMSE:3.796e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.6,-1.4], PQ=[-0.8,-0.6]: count:10, ill:0, Ang_MAX:1.193106e-03, Vol_MAX:3.688335e-04, P_MAX:9.198e-04, Q_MAX:1.094e-03, P_RMSE:2.425e-04, Q_RMSE:2.709e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.6,-1.4], PQ=[-0.6,-0.4]: count:10, ill:0, Ang_MAX:7.412761e-03, Vol_MAX:1.887560e-03, P_MAX:8.938e-03, Q_MAX:6.326e-03, P_RMSE:1.443e-03, Q_RMSE:1.202e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-1.6,-1.4], PQ=[-0.4,-0.2]: count:10, ill:0, Ang_MAX:6.688237e-04, Vol_MAX:1.448393e-04, P_MAX:4.398e-04, Q_MAX:4.266e-04, P_RMSE:1.613e-04, Q_RMSE:1.732e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.6,-1.4], PQ=[-0.2,0.0]: count:10, ill:0, Ang_MAX:6.830007e-03, Vol_MAX:4.606247e-04, P_MAX:4.018e-03, Q_MAX:2.370e-03, P_RMSE:9.505e-04, Q_RMSE:4.834e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.6,-1.4], PQ=[0.0,0.2]: count:10, ill:0, Ang_MAX:5.717278e-04, Vol_MAX:1.362562e-04, P_MAX:4.566e-04, Q_MAX:4.227e-04, P_RMSE:1.601e-04, Q_RMSE:1.662e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.6,-1.4], PQ=[0.2,0.4]: count:10, ill:0, Ang_MAX:5.255044e-04, Vol_MAX:1.851320e-04, P_MAX:3.981e-04, Q_MAX:3.911e-04, P_RMSE:1.435e-04, Q_RMSE:1.509e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.6,-1.4], PQ=[0.4,0.6]: count:10, ill:0, Ang_MAX:1.850367e-03, Vol_MAX:3.845692e-04, P_MAX:3.244e-03, Q_MAX:1.381e-03, P_RMSE:6.182e-04, Q_RMSE:2.686e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.6,-1.4], PQ=[0.6,0.8]: count:10, ill:0, Ang_MAX:3.952265e-03, Vol_MAX:8.625984e-04, P_MAX:3.095e-03, Q_MAX:1.883e-03, P_RMSE:5.529e-04, Q_RMSE:4.089e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.6,-1.4], PQ=[0.8,1.0]: count:10, ill:0, Ang_MAX:1.604110e-03, Vol_MAX:1.792908e-04, P_MAX:2.402e-03, Q_MAX:2.846e-03, P_RMSE:4.893e-04, Q_RMSE:4.565e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.6,-1.4], PQ=[1.0,1.2]: count:10, ill:0, Ang_MAX:9.000599e-04, Vol_MAX:2.976656e-04, P_MAX:1.203e-03, Q_MAX:1.770e-03, P_RMSE:2.607e-04, Q_RMSE:2.978e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.6,-1.4], PQ=[1.2,1.4]: count:10, ill:0, Ang_MAX:4.340113e-04, Vol_MAX:7.140636e-05, P_MAX:5.829e-04, Q_MAX:5.991e-04, P_RMSE:1.692e-04, Q_RMSE:1.546e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.6,-1.4], PQ=[1.4,1.6]: count:10, ill:0, Ang_MAX:1.058012e-03, Vol_MAX:1.587868e-04, P_MAX:1.204e-03, Q_MAX:5.332e-04, P_RMSE:3.232e-04, Q_RMSE:1.827e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.6,-1.4], PQ=[1.6,1.8]: count:10, ill:0, Ang_MAX:8.221567e-04, Vol_MAX:2.207756e-04, P_MAX:9.260e-04, Q_MAX:4.521e-04, P_RMSE:2.806e-04, Q_RMSE:1.903e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.6,-1.4], PQ=[1.8,2.0]: count:10, ill:0, Ang_MAX:3.003925e-03, Vol_MAX:2.341270e-04, P_MAX:1.846e-03, Q_MAX:6.356e-04, P_RMSE:4.752e-04, Q_RMSE:2.824e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.4,-1.2], PQ=[-2.0,-1.8]: count:10, ill:0, Ang_MAX:3.850996e-03, Vol_MAX:2.776384e-04, P_MAX:3.536e-03, Q_MAX:1.759e-03, P_RMSE:6.088e-04, Q_RMSE:3.811e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.4,-1.2], PQ=[-1.8,-1.6]: count:10, ill:0, Ang_MAX:4.367679e-03, Vol_MAX:3.608465e-04, P_MAX:2.428e-03, Q_MAX:8.697e-04, P_RMSE:6.567e-04, Q_RMSE:3.003e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.4,-1.2], PQ=[-1.6,-1.4]: count:10, ill:0, Ang_MAX:2.970904e-03, Vol_MAX:2.323389e-04, P_MAX:1.871e-03, Q_MAX:1.456e-03, P_RMSE:4.587e-04, Q_RMSE:3.537e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.4,-1.2], PQ=[-1.4,-1.2]: count:10, ill:0, Ang_MAX:1.939267e-03, Vol_MAX:1.685619e-04, P_MAX:1.448e-03, Q_MAX:3.780e-04, P_RMSE:3.120e-04, Q_RMSE:1.632e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.4,-1.2], PQ=[-1.2,-1.0]: count:10, ill:0, Ang_MAX:9.410381e-04, Vol_MAX:1.248121e-04, P_MAX:6.512e-04, Q_MAX:4.676e-04, P_RMSE:2.082e-04, Q_RMSE:1.931e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.4,-1.2], PQ=[-1.0,-0.8]: count:10, ill:0, Ang_MAX:4.581511e-04, Vol_MAX:2.952814e-04, P_MAX:7.570e-04, Q_MAX:1.066e-03, P_RMSE:2.052e-04, Q_RMSE:2.238e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.4,-1.2], PQ=[-0.8,-0.6]: count:10, ill:0, Ang_MAX:3.770083e-03, Vol_MAX:2.584457e-04, P_MAX:2.935e-03, Q_MAX:1.317e-03, P_RMSE:5.916e-04, Q_RMSE:3.193e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-1.4,-1.2], PQ=[-0.6,-0.4]: count:10, ill:0, Ang_MAX:1.260400e-03, Vol_MAX:1.189709e-04, P_MAX:1.091e-03, Q_MAX:9.376e-04, P_RMSE:2.714e-04, Q_RMSE:2.290e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.4,-1.2], PQ=[-0.4,-0.2]: count:10, ill:0, Ang_MAX:4.911423e-04, Vol_MAX:1.394749e-04, P_MAX:4.235e-04, Q_MAX:3.718e-04, P_RMSE:1.577e-04, Q_RMSE:1.566e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.4,-1.2], PQ=[-0.2,0.0]: count:10, ill:0, Ang_MAX:9.818077e-04, Vol_MAX:1.249313e-04, P_MAX:6.118e-04, Q_MAX:4.418e-04, P_RMSE:2.019e-04, Q_RMSE:1.567e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.4,-1.2], PQ=[0.0,0.2]: count:10, ill:0, Ang_MAX:8.126408e-03, Vol_MAX:6.476641e-04, P_MAX:6.299e-03, Q_MAX:2.186e-03, P_RMSE:1.345e-03, Q_RMSE:4.766e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-1.4,-1.2], PQ=[0.2,0.4]: count:10, ill:0, Ang_MAX:1.797438e-03, Vol_MAX:1.183748e-03, P_MAX:6.669e-03, Q_MAX:5.986e-03, P_RMSE:9.983e-04, Q_RMSE:1.233e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-1.4,-1.2], PQ=[0.4,0.6]: count:10, ill:0, Ang_MAX:7.137954e-04, Vol_MAX:6.452799e-04, P_MAX:1.534e-03, Q_MAX:2.526e-03, P_RMSE:2.545e-04, Q_RMSE:3.639e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.4,-1.2], PQ=[0.6,0.8]: count:10, ill:0, Ang_MAX:1.236680e-02, Vol_MAX:1.508355e-03, P_MAX:1.001e-02, Q_MAX:8.573e-03, P_RMSE:1.930e-03, Q_RMSE:1.350e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.900000
+X=[-1.4,-1.2], PQ=[0.8,1.0]: count:10, ill:0, Ang_MAX:1.366228e-03, Vol_MAX:2.743006e-04, P_MAX:8.399e-04, Q_MAX:4.268e-04, P_RMSE:2.930e-04, Q_RMSE:1.560e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.4,-1.2], PQ=[1.0,1.2]: count:10, ill:0, Ang_MAX:5.258590e-03, Vol_MAX:3.893375e-04, P_MAX:4.431e-03, Q_MAX:3.893e-03, P_RMSE:1.206e-03, Q_RMSE:7.206e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-1.4,-1.2], PQ=[1.2,1.4]: count:10, ill:0, Ang_MAX:6.647706e-04, Vol_MAX:7.939339e-05, P_MAX:5.802e-04, Q_MAX:4.119e-04, P_RMSE:1.806e-04, Q_RMSE:1.500e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.4,-1.2], PQ=[1.4,1.6]: count:10, ill:0, Ang_MAX:1.250327e-03, Vol_MAX:1.553297e-04, P_MAX:8.027e-04, Q_MAX:5.363e-04, P_RMSE:2.591e-04, Q_RMSE:2.096e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.4,-1.2], PQ=[1.6,1.8]: count:10, ill:0, Ang_MAX:7.594526e-04, Vol_MAX:1.418591e-04, P_MAX:6.305e-04, Q_MAX:6.447e-04, P_RMSE:1.813e-04, Q_RMSE:1.772e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.4,-1.2], PQ=[1.8,2.0]: count:10, ill:0, Ang_MAX:1.062244e-03, Vol_MAX:2.859831e-04, P_MAX:2.165e-03, Q_MAX:8.770e-04, P_RMSE:4.030e-04, Q_RMSE:2.612e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.2,-1.0], PQ=[-2.0,-1.8]: count:10, ill:0, Ang_MAX:1.400408e-02, Vol_MAX:1.511216e-03, P_MAX:9.060e-03, Q_MAX:8.026e-03, P_RMSE:1.964e-03, Q_RMSE:1.633e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.2,-1.0], PQ=[-1.8,-1.6]: count:10, ill:0, Ang_MAX:3.605783e-04, Vol_MAX:1.335144e-04, P_MAX:4.145e-04, Q_MAX:4.334e-04, P_RMSE:1.517e-04, Q_RMSE:1.754e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.2,-1.0], PQ=[-1.6,-1.4]: count:10, ill:0, Ang_MAX:7.851720e-04, Vol_MAX:1.611710e-04, P_MAX:2.081e-03, Q_MAX:1.334e-03, P_RMSE:3.749e-04, Q_RMSE:3.008e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.2,-1.0], PQ=[-1.4,-1.2]: count:10, ill:0, Ang_MAX:1.619840e-02, Vol_MAX:1.412034e-03, P_MAX:1.258e-02, Q_MAX:7.692e-03, P_RMSE:2.685e-03, Q_RMSE:1.615e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.900000
+X=[-1.2,-1.0], PQ=[-1.2,-1.0]: count:10, ill:0, Ang_MAX:4.206300e-04, Vol_MAX:3.246069e-04, P_MAX:9.831e-04, Q_MAX:1.406e-03, P_RMSE:2.194e-04, Q_RMSE:2.795e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.2,-1.0], PQ=[-1.0,-0.8]: count:10, ill:0, Ang_MAX:5.362332e-04, Vol_MAX:1.477003e-04, P_MAX:4.637e-04, Q_MAX:4.357e-04, P_RMSE:1.571e-04, Q_RMSE:1.596e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.2,-1.0], PQ=[-0.8,-0.6]: count:10, ill:0, Ang_MAX:1.236737e-03, Vol_MAX:2.961159e-04, P_MAX:1.618e-03, Q_MAX:1.753e-03, P_RMSE:4.021e-04, Q_RMSE:3.613e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.2,-1.0], PQ=[-0.6,-0.4]: count:10, ill:0, Ang_MAX:1.201317e-03, Vol_MAX:9.393692e-05, P_MAX:1.030e-03, Q_MAX:7.717e-04, P_RMSE:2.445e-04, Q_RMSE:1.861e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.2,-1.0], PQ=[-0.4,-0.2]: count:10, ill:0, Ang_MAX:4.085898e-04, Vol_MAX:1.974106e-04, P_MAX:7.500e-04, Q_MAX:8.567e-04, P_RMSE:1.919e-04, Q_RMSE:2.025e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.2,-1.0], PQ=[-0.2,0.0]: count:10, ill:0, Ang_MAX:1.425207e-03, Vol_MAX:2.845526e-04, P_MAX:4.254e-03, Q_MAX:1.973e-03, P_RMSE:7.642e-04, Q_RMSE:5.045e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-1.2,-1.0], PQ=[0.0,0.2]: count:10, ill:0, Ang_MAX:4.439801e-04, Vol_MAX:1.078844e-04, P_MAX:5.034e-04, Q_MAX:3.553e-04, P_RMSE:1.413e-04, Q_RMSE:1.485e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.2,-1.0], PQ=[0.2,0.4]: count:10, ill:0, Ang_MAX:3.309250e-04, Vol_MAX:7.581711e-05, P_MAX:3.418e-04, Q_MAX:3.398e-04, P_RMSE:1.388e-04, Q_RMSE:1.382e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.2,-1.0], PQ=[0.4,0.6]: count:10, ill:0, Ang_MAX:1.844764e-03, Vol_MAX:2.267361e-04, P_MAX:1.071e-03, Q_MAX:4.774e-04, P_RMSE:3.723e-04, Q_RMSE:1.724e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.2,-1.0], PQ=[0.6,0.8]: count:10, ill:0, Ang_MAX:1.304388e-03, Vol_MAX:1.736879e-04, P_MAX:1.280e-03, Q_MAX:9.155e-04, P_RMSE:2.961e-04, Q_RMSE:2.353e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.2,-1.0], PQ=[0.8,1.0]: count:10, ill:0, Ang_MAX:5.762488e-03, Vol_MAX:7.539988e-04, P_MAX:6.204e-03, Q_MAX:4.683e-03, P_RMSE:1.019e-03, Q_RMSE:8.102e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.2,-1.0], PQ=[1.0,1.2]: count:10, ill:0, Ang_MAX:4.462033e-03, Vol_MAX:2.056479e-03, P_MAX:6.696e-03, Q_MAX:9.725e-03, P_RMSE:1.022e-03, Q_RMSE:1.270e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.2,-1.0], PQ=[1.2,1.4]: count:10, ill:0, Ang_MAX:1.464280e-02, Vol_MAX:1.095295e-03, P_MAX:8.884e-03, Q_MAX:6.375e-03, P_RMSE:2.085e-03, Q_RMSE:9.548e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.2,-1.0], PQ=[1.4,1.6]: count:10, ill:0, Ang_MAX:2.693057e-03, Vol_MAX:4.324913e-04, P_MAX:5.099e-03, Q_MAX:4.025e-03, P_RMSE:8.124e-04, Q_RMSE:7.720e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.2,-1.0], PQ=[1.6,1.8]: count:10, ill:0, Ang_MAX:1.318842e-03, Vol_MAX:4.270077e-04, P_MAX:2.034e-03, Q_MAX:2.019e-03, P_RMSE:4.320e-04, Q_RMSE:5.035e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-1.2,-1.0], PQ=[1.8,2.0]: count:10, ill:0, Ang_MAX:2.548724e-03, Vol_MAX:2.566576e-04, P_MAX:1.432e-03, Q_MAX:1.449e-03, P_RMSE:4.533e-04, Q_RMSE:3.415e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-1.0,-0.8], PQ=[-2.0,-1.8]: count:10, ill:0, Ang_MAX:1.656085e-03, Vol_MAX:1.322031e-04, P_MAX:1.315e-03, Q_MAX:7.403e-04, P_RMSE:2.888e-04, Q_RMSE:2.361e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.0,-0.8], PQ=[-1.8,-1.6]: count:10, ill:0, Ang_MAX:5.097091e-04, Vol_MAX:1.244545e-04, P_MAX:6.119e-04, Q_MAX:6.286e-04, P_RMSE:1.728e-04, Q_RMSE:1.907e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.0,-0.8], PQ=[-1.6,-1.4]: count:10, ill:0, Ang_MAX:4.362285e-03, Vol_MAX:2.504587e-04, P_MAX:5.710e-03, Q_MAX:2.236e-03, P_RMSE:8.585e-04, Q_RMSE:4.796e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.0,-0.8], PQ=[-1.4,-1.2]: count:10, ill:0, Ang_MAX:7.971287e-03, Vol_MAX:5.899668e-04, P_MAX:4.634e-03, Q_MAX:1.852e-03, P_RMSE:1.106e-03, Q_RMSE:4.658e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.0,-0.8], PQ=[-1.2,-1.0]: count:10, ill:0, Ang_MAX:3.640652e-04, Vol_MAX:1.454353e-04, P_MAX:6.559e-04, Q_MAX:6.027e-04, P_RMSE:1.462e-04, Q_RMSE:1.596e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.0,-0.8], PQ=[-1.0,-0.8]: count:10, ill:0, Ang_MAX:6.501615e-03, Vol_MAX:4.853010e-04, P_MAX:6.937e-03, Q_MAX:3.496e-03, P_RMSE:1.331e-03, Q_RMSE:6.186e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-1.0,-0.8], PQ=[-0.8,-0.6]: count:10, ill:0, Ang_MAX:2.891124e-04, Vol_MAX:6.091595e-05, P_MAX:3.662e-04, Q_MAX:2.786e-04, P_RMSE:1.338e-04, Q_RMSE:1.288e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.0,-0.8], PQ=[-0.6,-0.4]: count:10, ill:0, Ang_MAX:5.610168e-03, Vol_MAX:3.798008e-04, P_MAX:3.822e-03, Q_MAX:2.494e-03, P_RMSE:8.294e-04, Q_RMSE:4.748e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.0,-0.8], PQ=[-0.4,-0.2]: count:10, ill:0, Ang_MAX:2.994538e-04, Vol_MAX:7.402897e-05, P_MAX:4.518e-04, Q_MAX:3.643e-04, P_RMSE:1.190e-04, Q_RMSE:1.172e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.0,-0.8], PQ=[-0.2,0.0]: count:10, ill:0, Ang_MAX:9.861976e-03, Vol_MAX:2.676845e-03, P_MAX:7.668e-03, Q_MAX:6.037e-03, P_RMSE:1.526e-03, Q_RMSE:1.070e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-1.0,-0.8], PQ=[0.0,0.2]: count:10, ill:0, Ang_MAX:4.371405e-04, Vol_MAX:5.483627e-05, P_MAX:3.694e-04, Q_MAX:3.635e-04, P_RMSE:1.376e-04, Q_RMSE:1.307e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.0,-0.8], PQ=[0.2,0.4]: count:10, ill:0, Ang_MAX:5.608201e-04, Vol_MAX:9.334087e-05, P_MAX:4.091e-04, Q_MAX:3.890e-04, P_RMSE:1.538e-04, Q_RMSE:1.449e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.0,-0.8], PQ=[0.4,0.6]: count:10, ill:0, Ang_MAX:5.592108e-04, Vol_MAX:8.749962e-05, P_MAX:4.430e-04, Q_MAX:4.245e-04, P_RMSE:1.450e-04, Q_RMSE:1.381e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.0,-0.8], PQ=[0.6,0.8]: count:10, ill:0, Ang_MAX:3.740370e-03, Vol_MAX:5.571842e-04, P_MAX:2.675e-03, Q_MAX:9.206e-04, P_RMSE:6.211e-04, Q_RMSE:1.862e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.0,-0.8], PQ=[0.8,1.0]: count:10, ill:0, Ang_MAX:3.568202e-03, Vol_MAX:2.566576e-04, P_MAX:3.422e-03, Q_MAX:2.447e-03, P_RMSE:6.395e-04, Q_RMSE:4.674e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.0,-0.8], PQ=[1.0,1.2]: count:10, ill:0, Ang_MAX:1.116127e-03, Vol_MAX:1.618862e-04, P_MAX:1.325e-03, Q_MAX:4.157e-04, P_RMSE:2.317e-04, Q_RMSE:1.704e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.0,-0.8], PQ=[1.2,1.4]: count:10, ill:0, Ang_MAX:5.961359e-04, Vol_MAX:1.431704e-04, P_MAX:1.069e-03, Q_MAX:7.383e-04, P_RMSE:2.638e-04, Q_RMSE:2.160e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-1.0,-0.8], PQ=[1.4,1.6]: count:10, ill:0, Ang_MAX:8.022487e-04, Vol_MAX:7.688999e-05, P_MAX:5.684e-04, Q_MAX:3.266e-04, P_RMSE:1.903e-04, Q_RMSE:1.351e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.0,-0.8], PQ=[1.6,1.8]: count:10, ill:0, Ang_MAX:4.363656e-04, Vol_MAX:1.252890e-04, P_MAX:3.741e-04, Q_MAX:3.750e-04, P_RMSE:1.436e-04, Q_RMSE:1.432e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-1.0,-0.8], PQ=[1.8,2.0]: count:10, ill:0, Ang_MAX:3.195196e-03, Vol_MAX:8.385181e-04, P_MAX:5.147e-03, Q_MAX:3.451e-03, P_RMSE:7.792e-04, Q_RMSE:7.543e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-0.8,-0.6], PQ=[-2.0,-1.8]: count:10, ill:0, Ang_MAX:5.813539e-04, Vol_MAX:8.952618e-05, P_MAX:5.644e-04, Q_MAX:5.624e-04, P_RMSE:1.945e-04, Q_RMSE:2.027e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.8,-0.6], PQ=[-1.8,-1.6]: count:10, ill:0, Ang_MAX:5.804300e-04, Vol_MAX:1.686811e-04, P_MAX:8.778e-04, Q_MAX:8.169e-04, P_RMSE:2.134e-04, Q_RMSE:2.482e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.8,-0.6], PQ=[-1.6,-1.4]: count:10, ill:0, Ang_MAX:6.927252e-04, Vol_MAX:1.112223e-04, P_MAX:6.159e-04, Q_MAX:4.884e-04, P_RMSE:1.845e-04, Q_RMSE:1.694e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.8,-0.6], PQ=[-1.4,-1.2]: count:10, ill:0, Ang_MAX:6.212592e-04, Vol_MAX:1.266003e-04, P_MAX:6.189e-04, Q_MAX:6.344e-04, P_RMSE:2.131e-04, Q_RMSE:2.366e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.8,-0.6], PQ=[-1.2,-1.0]: count:10, ill:0, Ang_MAX:2.040267e-03, Vol_MAX:1.749992e-04, P_MAX:1.225e-03, Q_MAX:1.170e-03, P_RMSE:4.015e-04, Q_RMSE:2.751e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-0.8,-0.6], PQ=[-1.0,-0.8]: count:10, ill:0, Ang_MAX:4.680932e-03, Vol_MAX:5.034208e-04, P_MAX:6.810e-03, Q_MAX:4.340e-03, P_RMSE:1.081e-03, Q_RMSE:8.290e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-0.8,-0.6], PQ=[-0.8,-0.6]: count:10, ill:0, Ang_MAX:1.016229e-03, Vol_MAX:1.519918e-04, P_MAX:7.342e-04, Q_MAX:6.223e-04, P_RMSE:1.844e-04, Q_RMSE:1.877e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.8,-0.6], PQ=[-0.6,-0.4]: count:10, ill:0, Ang_MAX:3.471375e-04, Vol_MAX:8.821487e-05, P_MAX:5.122e-04, Q_MAX:5.675e-04, P_RMSE:1.403e-04, Q_RMSE:1.480e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.8,-0.6], PQ=[-0.4,-0.2]: count:10, ill:0, Ang_MAX:3.434718e-04, Vol_MAX:7.641315e-05, P_MAX:3.243e-04, Q_MAX:3.747e-04, P_RMSE:1.209e-04, Q_RMSE:1.506e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.8,-0.6], PQ=[-0.2,0.0]: count:10, ill:0, Ang_MAX:3.760159e-04, Vol_MAX:8.928776e-05, P_MAX:5.090e-04, Q_MAX:5.528e-04, P_RMSE:1.497e-04, Q_RMSE:1.450e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.8,-0.6], PQ=[0.0,0.2]: count:10, ill:0, Ang_MAX:1.466751e-03, Vol_MAX:1.065731e-04, P_MAX:1.367e-03, Q_MAX:5.327e-04, P_RMSE:3.207e-04, Q_RMSE:1.939e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-0.8,-0.6], PQ=[0.2,0.4]: count:10, ill:0, Ang_MAX:4.023314e-04, Vol_MAX:7.963181e-05, P_MAX:9.509e-04, Q_MAX:8.040e-04, P_RMSE:1.563e-04, Q_RMSE:1.819e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.8,-0.6], PQ=[0.4,0.6]: count:10, ill:0, Ang_MAX:8.277893e-04, Vol_MAX:1.990795e-04, P_MAX:5.704e-04, Q_MAX:5.531e-04, P_RMSE:1.921e-04, Q_RMSE:1.677e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.8,-0.6], PQ=[0.6,0.8]: count:10, ill:0, Ang_MAX:3.291488e-03, Vol_MAX:2.353191e-04, P_MAX:1.987e-03, Q_MAX:8.486e-04, P_RMSE:4.777e-04, Q_RMSE:2.285e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-0.8,-0.6], PQ=[0.8,1.0]: count:10, ill:0, Ang_MAX:7.288456e-04, Vol_MAX:1.150370e-04, P_MAX:4.435e-04, Q_MAX:4.311e-04, P_RMSE:1.725e-04, Q_RMSE:1.324e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.8,-0.6], PQ=[1.0,1.2]: count:10, ill:0, Ang_MAX:3.054172e-03, Vol_MAX:3.281832e-04, P_MAX:3.597e-03, Q_MAX:1.357e-03, P_RMSE:6.082e-04, Q_RMSE:3.809e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[-0.8,-0.6], PQ=[1.2,1.4]: count:10, ill:0, Ang_MAX:4.885495e-04, Vol_MAX:1.235008e-04, P_MAX:4.733e-04, Q_MAX:5.422e-04, P_RMSE:1.610e-04, Q_RMSE:1.698e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.8,-0.6], PQ=[1.4,1.6]: count:10, ill:0, Ang_MAX:7.819831e-04, Vol_MAX:1.204014e-04, P_MAX:5.070e-04, Q_MAX:4.982e-04, P_RMSE:2.041e-04, Q_RMSE:1.727e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.8,-0.6], PQ=[1.6,1.8]: count:10, ill:0, Ang_MAX:3.610075e-03, Vol_MAX:2.430677e-04, P_MAX:2.088e-03, Q_MAX:9.331e-04, P_RMSE:5.121e-04, Q_RMSE:2.653e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-0.8,-0.6], PQ=[1.8,2.0]: count:10, ill:0, Ang_MAX:7.112622e-04, Vol_MAX:1.502037e-04, P_MAX:5.510e-04, Q_MAX:7.049e-04, P_RMSE:1.785e-04, Q_RMSE:1.935e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.6,-0.4], PQ=[-2.0,-1.8]: count:10, ill:0, Ang_MAX:1.037538e-03, Vol_MAX:1.788139e-04, P_MAX:1.651e-03, Q_MAX:1.334e-03, P_RMSE:2.935e-04, Q_RMSE:2.494e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-0.6,-0.4], PQ=[-1.8,-1.6]: count:10, ill:0, Ang_MAX:7.525683e-04, Vol_MAX:1.058578e-04, P_MAX:6.550e-04, Q_MAX:4.244e-04, P_RMSE:1.992e-04, Q_RMSE:1.809e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.6,-0.4], PQ=[-1.6,-1.4]: count:10, ill:0, Ang_MAX:4.076064e-04, Vol_MAX:1.350641e-04, P_MAX:7.567e-04, Q_MAX:8.265e-04, P_RMSE:1.819e-04, Q_RMSE:1.846e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.6,-0.4], PQ=[-1.4,-1.2]: count:10, ill:0, Ang_MAX:4.711449e-04, Vol_MAX:8.296967e-05, P_MAX:4.986e-04, Q_MAX:5.001e-04, P_RMSE:1.570e-04, Q_RMSE:1.729e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.6,-0.4], PQ=[-1.2,-1.0]: count:10, ill:0, Ang_MAX:4.421771e-04, Vol_MAX:6.699562e-05, P_MAX:3.806e-04, Q_MAX:3.699e-04, P_RMSE:1.568e-04, Q_RMSE:1.325e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.6,-0.4], PQ=[-1.0,-0.8]: count:10, ill:0, Ang_MAX:1.706451e-03, Vol_MAX:1.492500e-04, P_MAX:1.033e-03, Q_MAX:5.503e-04, P_RMSE:2.914e-04, Q_RMSE:1.709e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-0.6,-0.4], PQ=[-0.8,-0.6]: count:10, ill:0, Ang_MAX:2.792507e-03, Vol_MAX:2.174377e-04, P_MAX:1.613e-03, Q_MAX:6.457e-04, P_RMSE:4.174e-04, Q_RMSE:2.424e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-0.6,-0.4], PQ=[-0.6,-0.4]: count:10, ill:0, Ang_MAX:4.347861e-04, Vol_MAX:9.596348e-05, P_MAX:5.518e-04, Q_MAX:5.433e-04, P_RMSE:1.649e-04, Q_RMSE:1.675e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.6,-0.4], PQ=[-0.4,-0.2]: count:10, ill:0, Ang_MAX:3.579169e-03, Vol_MAX:2.633333e-04, P_MAX:2.094e-03, Q_MAX:7.428e-04, P_RMSE:5.038e-04, Q_RMSE:2.172e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-0.6,-0.4], PQ=[-0.2,0.0]: count:10, ill:0, Ang_MAX:6.815493e-04, Vol_MAX:1.295805e-04, P_MAX:4.290e-04, Q_MAX:3.630e-04, P_RMSE:1.802e-04, Q_RMSE:1.312e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.6,-0.4], PQ=[0.0,0.2]: count:10, ill:0, Ang_MAX:6.578863e-04, Vol_MAX:7.665157e-05, P_MAX:4.146e-04, Q_MAX:4.896e-04, P_RMSE:1.605e-04, Q_RMSE:1.394e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.6,-0.4], PQ=[0.2,0.4]: count:10, ill:0, Ang_MAX:2.329439e-03, Vol_MAX:1.667738e-04, P_MAX:1.332e-03, Q_MAX:6.667e-04, P_RMSE:3.394e-04, Q_RMSE:1.818e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-0.6,-0.4], PQ=[0.4,0.6]: count:10, ill:0, Ang_MAX:6.569922e-04, Vol_MAX:1.064539e-04, P_MAX:4.875e-04, Q_MAX:5.449e-04, P_RMSE:1.866e-04, Q_RMSE:1.905e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.6,-0.4], PQ=[0.6,0.8]: count:10, ill:0, Ang_MAX:3.304184e-04, Vol_MAX:8.344650e-05, P_MAX:4.409e-04, Q_MAX:6.301e-04, P_RMSE:1.406e-04, Q_RMSE:1.589e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.6,-0.4], PQ=[0.8,1.0]: count:10, ill:0, Ang_MAX:4.127026e-04, Vol_MAX:1.152754e-04, P_MAX:5.527e-04, Q_MAX:5.550e-04, P_RMSE:1.355e-04, Q_RMSE:1.414e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.6,-0.4], PQ=[1.0,1.2]: count:10, ill:0, Ang_MAX:3.241599e-04, Vol_MAX:8.428097e-05, P_MAX:3.426e-04, Q_MAX:3.535e-04, P_RMSE:1.231e-04, Q_RMSE:1.442e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.6,-0.4], PQ=[1.2,1.4]: count:10, ill:0, Ang_MAX:5.443692e-04, Vol_MAX:1.132488e-04, P_MAX:3.736e-04, Q_MAX:3.470e-04, P_RMSE:1.459e-04, Q_RMSE:1.486e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.6,-0.4], PQ=[1.4,1.6]: count:10, ill:0, Ang_MAX:4.158616e-04, Vol_MAX:7.009506e-05, P_MAX:3.450e-04, Q_MAX:3.511e-04, P_RMSE:1.468e-04, Q_RMSE:1.678e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.6,-0.4], PQ=[1.6,1.8]: count:10, ill:0, Ang_MAX:4.624426e-04, Vol_MAX:1.281500e-04, P_MAX:3.717e-04, Q_MAX:3.468e-04, P_RMSE:1.554e-04, Q_RMSE:1.571e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.6,-0.4], PQ=[1.8,2.0]: count:10, ill:0, Ang_MAX:4.316180e-03, Vol_MAX:3.026724e-04, P_MAX:2.455e-03, Q_MAX:1.018e-03, P_RMSE:6.246e-04, Q_RMSE:3.142e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-0.4,-0.2], PQ=[-2.0,-1.8]: count:10, ill:0, Ang_MAX:5.120635e-04, Vol_MAX:7.390976e-05, P_MAX:4.125e-04, Q_MAX:3.936e-04, P_RMSE:1.623e-04, Q_RMSE:1.444e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.4,-0.2], PQ=[-1.8,-1.6]: count:10, ill:0, Ang_MAX:1.106918e-03, Vol_MAX:1.442432e-04, P_MAX:1.021e-03, Q_MAX:6.948e-04, P_RMSE:2.272e-04, Q_RMSE:1.603e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-0.4,-0.2], PQ=[-1.6,-1.4]: count:10, ill:0, Ang_MAX:2.089143e-04, Vol_MAX:7.569790e-05, P_MAX:4.303e-04, Q_MAX:4.639e-04, P_RMSE:1.400e-04, Q_RMSE:1.663e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.4,-0.2], PQ=[-1.4,-1.2]: count:10, ill:0, Ang_MAX:4.625916e-04, Vol_MAX:1.131296e-04, P_MAX:6.297e-04, Q_MAX:5.979e-04, P_RMSE:1.519e-04, Q_RMSE:1.872e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.4,-0.2], PQ=[-1.2,-1.0]: count:10, ill:0, Ang_MAX:1.553863e-03, Vol_MAX:1.314878e-04, P_MAX:9.796e-04, Q_MAX:6.331e-04, P_RMSE:2.529e-04, Q_RMSE:1.927e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.4,-0.2], PQ=[-1.0,-0.8]: count:10, ill:0, Ang_MAX:6.064475e-04, Vol_MAX:8.094311e-05, P_MAX:3.939e-04, Q_MAX:3.653e-04, P_RMSE:1.524e-04, Q_RMSE:1.568e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.4,-0.2], PQ=[-0.8,-0.6]: count:10, ill:0, Ang_MAX:4.019052e-03, Vol_MAX:2.998114e-04, P_MAX:2.804e-03, Q_MAX:2.204e-03, P_RMSE:6.222e-04, Q_RMSE:4.339e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[-0.4,-0.2], PQ=[-0.6,-0.4]: count:10, ill:0, Ang_MAX:3.187061e-04, Vol_MAX:7.236004e-05, P_MAX:3.043e-04, Q_MAX:2.848e-04, P_RMSE:1.246e-04, Q_RMSE:1.296e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.4,-0.2], PQ=[-0.4,-0.2]: count:10, ill:0, Ang_MAX:4.511774e-04, Vol_MAX:7.772446e-05, P_MAX:6.215e-04, Q_MAX:3.838e-04, P_RMSE:1.394e-04, Q_RMSE:1.292e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.4,-0.2], PQ=[-0.2,0.0]: count:10, ill:0, Ang_MAX:7.807612e-04, Vol_MAX:6.735325e-05, P_MAX:4.730e-04, Q_MAX:2.696e-04, P_RMSE:1.451e-04, Q_RMSE:1.171e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.4,-0.2], PQ=[0.0,0.2]: count:10, ill:0, Ang_MAX:3.696382e-04, Vol_MAX:1.914501e-04, P_MAX:5.025e-04, Q_MAX:4.938e-04, P_RMSE:1.278e-04, Q_RMSE:1.382e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.4,-0.2], PQ=[0.2,0.4]: count:10, ill:0, Ang_MAX:4.431606e-04, Vol_MAX:8.904934e-05, P_MAX:3.388e-04, Q_MAX:3.336e-04, P_RMSE:1.384e-04, Q_RMSE:1.236e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.4,-0.2], PQ=[0.4,0.6]: count:10, ill:0, Ang_MAX:7.122457e-04, Vol_MAX:1.350641e-04, P_MAX:4.468e-04, Q_MAX:4.538e-04, P_RMSE:1.872e-04, Q_RMSE:1.591e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.4,-0.2], PQ=[0.6,0.8]: count:10, ill:0, Ang_MAX:5.619824e-04, Vol_MAX:9.536743e-05, P_MAX:3.898e-04, Q_MAX:3.844e-04, P_RMSE:1.373e-04, Q_RMSE:1.258e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.4,-0.2], PQ=[0.8,1.0]: count:10, ill:0, Ang_MAX:3.598928e-04, Vol_MAX:1.848936e-04, P_MAX:4.450e-04, Q_MAX:5.916e-04, P_RMSE:1.415e-04, Q_RMSE:1.830e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.4,-0.2], PQ=[1.0,1.2]: count:10, ill:0, Ang_MAX:5.266666e-04, Vol_MAX:7.271767e-05, P_MAX:3.676e-04, Q_MAX:3.833e-04, P_RMSE:1.478e-04, Q_RMSE:1.316e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.4,-0.2], PQ=[1.2,1.4]: count:10, ill:0, Ang_MAX:3.274083e-04, Vol_MAX:6.723404e-05, P_MAX:2.986e-04, Q_MAX:3.489e-04, P_RMSE:1.314e-04, Q_RMSE:1.367e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.4,-0.2], PQ=[1.4,1.6]: count:10, ill:0, Ang_MAX:4.382432e-04, Vol_MAX:6.425381e-05, P_MAX:3.906e-04, Q_MAX:2.656e-04, P_RMSE:1.243e-04, Q_RMSE:1.186e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.4,-0.2], PQ=[1.6,1.8]: count:10, ill:0, Ang_MAX:3.181398e-04, Vol_MAX:6.937981e-05, P_MAX:2.504e-04, Q_MAX:3.059e-04, P_RMSE:1.209e-04, Q_RMSE:1.292e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.4,-0.2], PQ=[1.8,2.0]: count:10, ill:0, Ang_MAX:5.430281e-04, Vol_MAX:8.952618e-05, P_MAX:3.356e-04, Q_MAX:3.467e-04, P_RMSE:1.546e-04, Q_RMSE:1.560e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.2,0.0], PQ=[-2.0,-1.8]: count:10, ill:0, Ang_MAX:3.329516e-04, Vol_MAX:1.178980e-04, P_MAX:3.646e-04, Q_MAX:4.929e-04, P_RMSE:1.340e-04, Q_RMSE:1.619e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.2,0.0], PQ=[-1.8,-1.6]: count:10, ill:0, Ang_MAX:3.859103e-04, Vol_MAX:9.632111e-05, P_MAX:4.017e-04, Q_MAX:3.997e-04, P_RMSE:1.453e-04, Q_RMSE:1.676e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.2,0.0], PQ=[-1.6,-1.4]: count:10, ill:0, Ang_MAX:4.906654e-04, Vol_MAX:1.056194e-04, P_MAX:3.340e-04, Q_MAX:3.668e-04, P_RMSE:1.310e-04, Q_RMSE:1.773e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.2,0.0], PQ=[-1.4,-1.2]: count:10, ill:0, Ang_MAX:1.398027e-04, Vol_MAX:5.793571e-05, P_MAX:2.113e-04, Q_MAX:2.609e-04, P_RMSE:1.024e-04, Q_RMSE:1.081e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.2,0.0], PQ=[-1.2,-1.0]: count:10, ill:0, Ang_MAX:5.808175e-04, Vol_MAX:7.522106e-05, P_MAX:3.659e-04, Q_MAX:3.703e-04, P_RMSE:1.369e-04, Q_RMSE:1.435e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.2,0.0], PQ=[-1.0,-0.8]: count:10, ill:0, Ang_MAX:4.821420e-04, Vol_MAX:1.139641e-04, P_MAX:3.395e-04, Q_MAX:3.463e-04, P_RMSE:1.565e-04, Q_RMSE:1.539e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.2,0.0], PQ=[-0.8,-0.6]: count:10, ill:0, Ang_MAX:6.496608e-04, Vol_MAX:1.524687e-04, P_MAX:4.745e-04, Q_MAX:5.205e-04, P_RMSE:1.584e-04, Q_RMSE:1.547e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.2,0.0], PQ=[-0.6,-0.4]: count:10, ill:0, Ang_MAX:3.431738e-04, Vol_MAX:7.247925e-05, P_MAX:2.728e-04, Q_MAX:2.919e-04, P_RMSE:1.171e-04, Q_RMSE:1.337e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.2,0.0], PQ=[-0.4,-0.2]: count:10, ill:0, Ang_MAX:2.030730e-04, Vol_MAX:7.998943e-05, P_MAX:2.656e-04, Q_MAX:2.698e-04, P_RMSE:9.666e-05, Q_RMSE:1.165e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.2,0.0], PQ=[-0.2,0.0]: count:10, ill:0, Ang_MAX:2.573729e-04, Vol_MAX:7.271767e-05, P_MAX:2.170e-04, Q_MAX:3.408e-04, P_RMSE:8.926e-05, Q_RMSE:1.156e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.2,0.0], PQ=[0.0,0.2]: count:10, ill:0, Ang_MAX:5.367100e-04, Vol_MAX:7.784367e-05, P_MAX:3.085e-04, Q_MAX:2.240e-04, P_RMSE:1.274e-04, Q_RMSE:1.027e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.2,0.0], PQ=[0.2,0.4]: count:10, ill:0, Ang_MAX:3.331006e-04, Vol_MAX:6.175041e-05, P_MAX:3.235e-04, Q_MAX:3.566e-04, P_RMSE:1.242e-04, Q_RMSE:1.434e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.2,0.0], PQ=[0.4,0.6]: count:10, ill:0, Ang_MAX:1.868606e-04, Vol_MAX:7.271767e-05, P_MAX:2.931e-04, Q_MAX:3.040e-04, P_RMSE:8.692e-05, Q_RMSE:1.123e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.2,0.0], PQ=[0.6,0.8]: count:10, ill:0, Ang_MAX:3.987551e-04, Vol_MAX:8.893013e-05, P_MAX:5.540e-04, Q_MAX:5.533e-04, P_RMSE:1.415e-04, Q_RMSE:1.524e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.2,0.0], PQ=[0.8,1.0]: count:10, ill:0, Ang_MAX:5.244613e-04, Vol_MAX:9.894371e-05, P_MAX:2.978e-04, Q_MAX:2.957e-04, P_RMSE:1.185e-04, Q_RMSE:1.271e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.2,0.0], PQ=[1.0,1.2]: count:10, ill:0, Ang_MAX:4.048347e-04, Vol_MAX:7.879734e-05, P_MAX:4.929e-04, Q_MAX:5.121e-04, P_RMSE:1.445e-04, Q_RMSE:1.385e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.2,0.0], PQ=[1.2,1.4]: count:10, ill:0, Ang_MAX:3.950894e-04, Vol_MAX:7.069111e-05, P_MAX:2.924e-04, Q_MAX:3.525e-04, P_RMSE:1.183e-04, Q_RMSE:1.335e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.2,0.0], PQ=[1.4,1.6]: count:10, ill:0, Ang_MAX:9.640455e-04, Vol_MAX:1.227856e-04, P_MAX:5.831e-04, Q_MAX:5.991e-04, P_RMSE:1.980e-04, Q_RMSE:2.065e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.2,0.0], PQ=[1.6,1.8]: count:10, ill:0, Ang_MAX:2.463609e-04, Vol_MAX:8.988380e-05, P_MAX:3.129e-04, Q_MAX:3.743e-04, P_RMSE:1.142e-04, Q_RMSE:1.347e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[-0.2,0.0], PQ=[1.8,2.0]: count:10, ill:0, Ang_MAX:3.398955e-04, Vol_MAX:1.710653e-04, P_MAX:4.536e-04, Q_MAX:4.659e-04, P_RMSE:1.367e-04, Q_RMSE:1.522e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.0,0.2], PQ=[-2.0,-1.8]: count:10, ill:0, Ang_MAX:5.255938e-04, Vol_MAX:1.688004e-04, P_MAX:4.189e-04, Q_MAX:3.920e-04, P_RMSE:1.494e-04, Q_RMSE:1.810e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.0,0.2], PQ=[-1.8,-1.6]: count:10, ill:0, Ang_MAX:5.540252e-04, Vol_MAX:1.059771e-04, P_MAX:4.608e-04, Q_MAX:4.200e-04, P_RMSE:1.738e-04, Q_RMSE:1.755e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.0,0.2], PQ=[-1.6,-1.4]: count:10, ill:0, Ang_MAX:3.637969e-04, Vol_MAX:1.299381e-04, P_MAX:4.193e-04, Q_MAX:4.318e-04, P_RMSE:1.353e-04, Q_RMSE:1.679e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.0,0.2], PQ=[-1.4,-1.2]: count:10, ill:0, Ang_MAX:7.996261e-04, Vol_MAX:1.562834e-04, P_MAX:1.079e-03, Q_MAX:9.614e-04, P_RMSE:1.992e-04, Q_RMSE:1.916e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[0.0,0.2], PQ=[-1.2,-1.0]: count:10, ill:0, Ang_MAX:3.795028e-04, Vol_MAX:1.082420e-04, P_MAX:3.223e-04, Q_MAX:3.279e-04, P_RMSE:1.349e-04, Q_RMSE:1.324e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.0,0.2], PQ=[-1.0,-0.8]: count:10, ill:0, Ang_MAX:3.750920e-04, Vol_MAX:9.298325e-05, P_MAX:2.948e-04, Q_MAX:3.684e-04, P_RMSE:1.227e-04, Q_RMSE:1.368e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.0,0.2], PQ=[-0.8,-0.6]: count:10, ill:0, Ang_MAX:2.490878e-04, Vol_MAX:5.137920e-05, P_MAX:2.794e-04, Q_MAX:2.487e-04, P_RMSE:9.578e-05, Q_RMSE:1.053e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.0,0.2], PQ=[-0.6,-0.4]: count:10, ill:0, Ang_MAX:6.631315e-04, Vol_MAX:7.843971e-05, P_MAX:4.044e-04, Q_MAX:4.061e-04, P_RMSE:1.612e-04, Q_RMSE:1.223e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.0,0.2], PQ=[-0.4,-0.2]: count:10, ill:0, Ang_MAX:3.100336e-04, Vol_MAX:8.380413e-05, P_MAX:3.002e-04, Q_MAX:3.226e-04, P_RMSE:1.256e-04, Q_RMSE:1.296e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.0,0.2], PQ=[-0.2,0.0]: count:10, ill:0, Ang_MAX:4.467964e-04, Vol_MAX:5.781651e-05, P_MAX:2.898e-04, Q_MAX:2.220e-04, P_RMSE:1.231e-04, Q_RMSE:1.181e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.0,0.2], PQ=[0.0,0.2]: count:10, ill:0, Ang_MAX:3.417433e-04, Vol_MAX:8.749962e-05, P_MAX:2.835e-04, Q_MAX:3.127e-04, P_RMSE:1.186e-04, Q_RMSE:1.258e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.0,0.2], PQ=[0.2,0.4]: count:10, ill:0, Ang_MAX:3.572404e-04, Vol_MAX:8.070469e-05, P_MAX:3.675e-04, Q_MAX:3.791e-04, P_RMSE:1.239e-04, Q_RMSE:1.343e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.0,0.2], PQ=[0.4,0.6]: count:10, ill:0, Ang_MAX:2.954901e-04, Vol_MAX:9.751320e-05, P_MAX:4.284e-04, Q_MAX:4.670e-04, P_RMSE:1.146e-04, Q_RMSE:1.454e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.0,0.2], PQ=[0.6,0.8]: count:10, ill:0, Ang_MAX:2.368093e-04, Vol_MAX:6.759167e-05, P_MAX:2.014e-04, Q_MAX:2.168e-04, P_RMSE:9.168e-05, Q_RMSE:1.040e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.0,0.2], PQ=[0.8,1.0]: count:10, ill:0, Ang_MAX:5.317926e-04, Vol_MAX:9.286404e-05, P_MAX:3.341e-04, Q_MAX:3.509e-04, P_RMSE:1.414e-04, Q_RMSE:1.276e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.0,0.2], PQ=[1.0,1.2]: count:10, ill:0, Ang_MAX:4.990697e-04, Vol_MAX:1.002550e-04, P_MAX:3.571e-04, Q_MAX:3.517e-04, P_RMSE:1.564e-04, Q_RMSE:1.378e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.0,0.2], PQ=[1.2,1.4]: count:10, ill:0, Ang_MAX:5.637109e-04, Vol_MAX:9.489059e-05, P_MAX:3.506e-04, Q_MAX:3.081e-04, P_RMSE:1.457e-04, Q_RMSE:1.268e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.0,0.2], PQ=[1.4,1.6]: count:10, ill:0, Ang_MAX:3.889203e-04, Vol_MAX:7.379055e-05, P_MAX:6.702e-04, Q_MAX:3.736e-04, P_RMSE:1.603e-04, Q_RMSE:1.439e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.0,0.2], PQ=[1.6,1.8]: count:10, ill:0, Ang_MAX:5.649924e-04, Vol_MAX:8.022785e-05, P_MAX:4.125e-04, Q_MAX:4.186e-04, P_RMSE:1.549e-04, Q_RMSE:1.322e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.0,0.2], PQ=[1.8,2.0]: count:10, ill:0, Ang_MAX:4.512668e-04, Vol_MAX:1.026392e-04, P_MAX:3.395e-04, Q_MAX:3.266e-04, P_RMSE:1.387e-04, Q_RMSE:1.472e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.2,0.4], PQ=[-2.0,-1.8]: count:10, ill:0, Ang_MAX:4.289449e-04, Vol_MAX:1.089573e-04, P_MAX:3.635e-04, Q_MAX:3.679e-04, P_RMSE:1.629e-04, Q_RMSE:1.636e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.2,0.4], PQ=[-1.8,-1.6]: count:10, ill:0, Ang_MAX:4.478693e-04, Vol_MAX:1.523495e-04, P_MAX:4.319e-04, Q_MAX:4.199e-04, P_RMSE:1.860e-04, Q_RMSE:1.651e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.2,0.4], PQ=[-1.6,-1.4]: count:10, ill:0, Ang_MAX:5.256832e-04, Vol_MAX:1.446009e-04, P_MAX:4.101e-04, Q_MAX:4.050e-04, P_RMSE:1.600e-04, Q_RMSE:1.552e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.2,0.4], PQ=[-1.4,-1.2]: count:10, ill:0, Ang_MAX:4.274845e-04, Vol_MAX:6.794930e-05, P_MAX:3.838e-04, Q_MAX:3.198e-04, P_RMSE:1.222e-04, Q_RMSE:1.275e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.2,0.4], PQ=[-1.2,-1.0]: count:10, ill:0, Ang_MAX:5.588830e-04, Vol_MAX:1.107454e-04, P_MAX:4.247e-04, Q_MAX:5.386e-04, P_RMSE:1.837e-04, Q_RMSE:1.675e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.2,0.4], PQ=[-1.0,-0.8]: count:10, ill:0, Ang_MAX:4.144013e-04, Vol_MAX:6.806850e-05, P_MAX:3.353e-04, Q_MAX:3.380e-04, P_RMSE:1.500e-04, Q_RMSE:1.304e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.2,0.4], PQ=[-0.8,-0.6]: count:10, ill:0, Ang_MAX:4.075766e-04, Vol_MAX:9.524822e-05, P_MAX:3.296e-04, Q_MAX:2.969e-04, P_RMSE:1.464e-04, Q_RMSE:1.300e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.2,0.4], PQ=[-0.6,-0.4]: count:10, ill:0, Ang_MAX:5.497933e-04, Vol_MAX:8.463860e-05, P_MAX:3.989e-04, Q_MAX:3.450e-04, P_RMSE:1.687e-04, Q_RMSE:1.211e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.2,0.4], PQ=[-0.4,-0.2]: count:10, ill:0, Ang_MAX:4.352927e-04, Vol_MAX:6.282330e-05, P_MAX:3.412e-04, Q_MAX:3.400e-04, P_RMSE:1.314e-04, Q_RMSE:1.263e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.2,0.4], PQ=[-0.2,0.0]: count:10, ill:0, Ang_MAX:5.211830e-04, Vol_MAX:7.998943e-05, P_MAX:3.017e-04, Q_MAX:2.294e-04, P_RMSE:1.220e-04, Q_RMSE:9.918e-05, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.2,0.4], PQ=[0.0,0.2]: count:10, ill:0, Ang_MAX:3.312230e-04, Vol_MAX:8.189678e-05, P_MAX:2.971e-04, Q_MAX:3.274e-04, P_RMSE:1.239e-04, Q_RMSE:1.156e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.2,0.4], PQ=[0.2,0.4]: count:10, ill:0, Ang_MAX:3.659725e-04, Vol_MAX:9.262562e-05, P_MAX:4.537e-04, Q_MAX:2.878e-04, P_RMSE:1.335e-04, Q_RMSE:1.457e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.2,0.4], PQ=[0.4,0.6]: count:10, ill:0, Ang_MAX:6.796420e-04, Vol_MAX:6.639957e-05, P_MAX:4.370e-04, Q_MAX:4.687e-04, P_RMSE:1.484e-04, Q_RMSE:1.071e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.2,0.4], PQ=[0.6,0.8]: count:10, ill:0, Ang_MAX:2.862215e-04, Vol_MAX:7.545948e-05, P_MAX:2.627e-04, Q_MAX:2.704e-04, P_RMSE:9.959e-05, Q_RMSE:1.004e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.2,0.4], PQ=[0.8,1.0]: count:10, ill:0, Ang_MAX:6.671846e-04, Vol_MAX:8.821487e-05, P_MAX:5.488e-04, Q_MAX:4.402e-04, P_RMSE:1.639e-04, Q_RMSE:1.345e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.2,0.4], PQ=[1.0,1.2]: count:10, ill:0, Ang_MAX:5.088151e-04, Vol_MAX:9.012222e-05, P_MAX:3.990e-04, Q_MAX:4.401e-04, P_RMSE:1.306e-04, Q_RMSE:1.360e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.2,0.4], PQ=[1.2,1.4]: count:10, ill:0, Ang_MAX:7.070899e-04, Vol_MAX:6.890297e-05, P_MAX:5.827e-04, Q_MAX:4.357e-04, P_RMSE:1.799e-04, Q_RMSE:1.441e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.2,0.4], PQ=[1.4,1.6]: count:10, ill:0, Ang_MAX:5.462766e-04, Vol_MAX:1.401901e-04, P_MAX:3.863e-04, Q_MAX:3.687e-04, P_RMSE:1.564e-04, Q_RMSE:1.345e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.2,0.4], PQ=[1.6,1.8]: count:10, ill:0, Ang_MAX:7.286966e-04, Vol_MAX:1.120567e-04, P_MAX:5.017e-04, Q_MAX:5.096e-04, P_RMSE:1.778e-04, Q_RMSE:1.659e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.2,0.4], PQ=[1.8,2.0]: count:10, ill:0, Ang_MAX:8.197725e-04, Vol_MAX:1.025200e-04, P_MAX:5.821e-04, Q_MAX:4.140e-04, P_RMSE:1.983e-04, Q_RMSE:1.494e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.4,0.6], PQ=[-2.0,-1.8]: count:10, ill:0, Ang_MAX:6.508231e-04, Vol_MAX:1.560450e-04, P_MAX:6.047e-04, Q_MAX:6.532e-04, P_RMSE:2.083e-04, Q_RMSE:1.980e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.4,0.6], PQ=[-1.8,-1.6]: count:10, ill:0, Ang_MAX:6.085038e-04, Vol_MAX:8.714199e-05, P_MAX:5.400e-04, Q_MAX:5.671e-04, P_RMSE:2.096e-04, Q_RMSE:2.178e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.4,0.6], PQ=[-1.6,-1.4]: count:10, ill:0, Ang_MAX:2.425373e-03, Vol_MAX:1.966953e-04, P_MAX:1.343e-03, Q_MAX:9.695e-04, P_RMSE:3.894e-04, Q_RMSE:2.448e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[0.4,0.6], PQ=[-1.4,-1.2]: count:10, ill:0, Ang_MAX:2.640307e-03, Vol_MAX:3.161430e-04, P_MAX:2.275e-03, Q_MAX:1.575e-03, P_RMSE:5.149e-04, Q_RMSE:2.821e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[0.4,0.6], PQ=[-1.2,-1.0]: count:10, ill:0, Ang_MAX:2.952933e-03, Vol_MAX:2.800226e-04, P_MAX:2.464e-03, Q_MAX:1.744e-03, P_RMSE:6.009e-04, Q_RMSE:3.352e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[0.4,0.6], PQ=[-1.0,-0.8]: count:10, ill:0, Ang_MAX:5.111545e-04, Vol_MAX:9.083748e-05, P_MAX:1.333e-03, Q_MAX:6.850e-04, P_RMSE:2.291e-04, Q_RMSE:1.650e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[0.4,0.6], PQ=[-0.8,-0.6]: count:10, ill:0, Ang_MAX:1.533002e-03, Vol_MAX:4.249811e-04, P_MAX:1.979e-03, Q_MAX:1.974e-03, P_RMSE:3.915e-04, Q_RMSE:3.680e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[0.4,0.6], PQ=[-0.6,-0.4]: count:10, ill:0, Ang_MAX:4.370660e-04, Vol_MAX:6.389618e-05, P_MAX:5.057e-04, Q_MAX:5.897e-04, P_RMSE:1.573e-04, Q_RMSE:1.294e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.4,0.6], PQ=[-0.4,-0.2]: count:10, ill:0, Ang_MAX:6.994605e-04, Vol_MAX:7.402897e-05, P_MAX:5.734e-04, Q_MAX:3.985e-04, P_RMSE:1.662e-04, Q_RMSE:1.351e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.4,0.6], PQ=[-0.2,0.0]: count:10, ill:0, Ang_MAX:3.934503e-04, Vol_MAX:8.726120e-05, P_MAX:3.045e-04, Q_MAX:3.628e-04, P_RMSE:1.313e-04, Q_RMSE:1.112e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.4,0.6], PQ=[0.0,0.2]: count:10, ill:0, Ang_MAX:6.273389e-04, Vol_MAX:1.153946e-04, P_MAX:4.750e-04, Q_MAX:3.883e-04, P_RMSE:1.504e-04, Q_RMSE:1.378e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.4,0.6], PQ=[0.2,0.4]: count:10, ill:0, Ang_MAX:9.516776e-04, Vol_MAX:1.351833e-04, P_MAX:6.578e-04, Q_MAX:7.078e-04, P_RMSE:2.182e-04, Q_RMSE:1.829e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.4,0.6], PQ=[0.4,0.6]: count:10, ill:0, Ang_MAX:3.176034e-04, Vol_MAX:6.616116e-05, P_MAX:4.252e-04, Q_MAX:3.742e-04, P_RMSE:1.125e-04, Q_RMSE:9.311e-05, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.4,0.6], PQ=[0.6,0.8]: count:10, ill:0, Ang_MAX:6.767809e-04, Vol_MAX:6.866455e-05, P_MAX:4.614e-04, Q_MAX:4.268e-04, P_RMSE:1.752e-04, Q_RMSE:1.381e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.4,0.6], PQ=[0.8,1.0]: count:10, ill:0, Ang_MAX:4.799664e-04, Vol_MAX:9.620190e-05, P_MAX:3.647e-04, Q_MAX:4.070e-04, P_RMSE:1.488e-04, Q_RMSE:1.339e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.4,0.6], PQ=[1.0,1.2]: count:10, ill:0, Ang_MAX:4.282892e-04, Vol_MAX:1.164675e-04, P_MAX:3.786e-04, Q_MAX:4.358e-04, P_RMSE:1.431e-04, Q_RMSE:1.387e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.4,0.6], PQ=[1.2,1.4]: count:10, ill:0, Ang_MAX:7.044673e-04, Vol_MAX:1.116991e-04, P_MAX:4.731e-04, Q_MAX:4.656e-04, P_RMSE:1.898e-04, Q_RMSE:1.622e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.4,0.6], PQ=[1.4,1.6]: count:10, ill:0, Ang_MAX:1.028016e-03, Vol_MAX:2.417564e-04, P_MAX:1.197e-03, Q_MAX:6.394e-04, P_RMSE:2.181e-04, Q_RMSE:1.951e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[0.4,0.6], PQ=[1.6,1.8]: count:10, ill:0, Ang_MAX:1.207709e-03, Vol_MAX:1.006126e-04, P_MAX:6.933e-04, Q_MAX:6.288e-04, P_RMSE:2.560e-04, Q_RMSE:2.001e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.4,0.6], PQ=[1.8,2.0]: count:10, ill:0, Ang_MAX:1.690894e-03, Vol_MAX:1.523495e-04, P_MAX:1.083e-03, Q_MAX:5.064e-04, P_RMSE:3.136e-04, Q_RMSE:1.531e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[0.6,0.8], PQ=[-2.0,-1.8]: count:10, ill:0, Ang_MAX:1.103923e-03, Vol_MAX:1.801252e-04, P_MAX:1.219e-03, Q_MAX:1.249e-03, P_RMSE:2.558e-04, Q_RMSE:2.667e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[0.6,0.8], PQ=[-1.8,-1.6]: count:10, ill:0, Ang_MAX:7.976294e-04, Vol_MAX:1.373291e-04, P_MAX:5.225e-04, Q_MAX:5.762e-04, P_RMSE:1.990e-04, Q_RMSE:1.701e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.6,0.8], PQ=[-1.6,-1.4]: count:10, ill:0, Ang_MAX:8.500218e-04, Vol_MAX:1.109838e-04, P_MAX:7.524e-04, Q_MAX:7.453e-04, P_RMSE:2.230e-04, Q_RMSE:1.900e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.6,0.8], PQ=[-1.4,-1.2]: count:10, ill:0, Ang_MAX:4.242271e-03, Vol_MAX:3.355742e-04, P_MAX:2.586e-03, Q_MAX:7.290e-04, P_RMSE:6.790e-04, Q_RMSE:2.602e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[0.6,0.8], PQ=[-1.2,-1.0]: count:10, ill:0, Ang_MAX:3.998578e-04, Vol_MAX:1.287460e-04, P_MAX:2.802e-04, Q_MAX:3.574e-04, P_RMSE:1.122e-04, Q_RMSE:1.474e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.6,0.8], PQ=[-1.0,-0.8]: count:10, ill:0, Ang_MAX:4.559040e-03, Vol_MAX:4.401207e-04, P_MAX:3.262e-03, Q_MAX:1.814e-03, P_RMSE:7.380e-04, Q_RMSE:3.014e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[0.6,0.8], PQ=[-0.8,-0.6]: count:10, ill:0, Ang_MAX:4.716069e-04, Vol_MAX:1.279116e-04, P_MAX:4.198e-04, Q_MAX:3.559e-04, P_RMSE:1.629e-04, Q_RMSE:1.252e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.6,0.8], PQ=[-0.6,-0.4]: count:10, ill:0, Ang_MAX:4.515946e-04, Vol_MAX:1.281500e-04, P_MAX:4.722e-04, Q_MAX:4.102e-04, P_RMSE:1.618e-04, Q_RMSE:1.474e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.6,0.8], PQ=[-0.4,-0.2]: count:10, ill:0, Ang_MAX:1.218289e-03, Vol_MAX:1.595020e-04, P_MAX:8.445e-04, Q_MAX:6.815e-04, P_RMSE:2.315e-04, Q_RMSE:2.191e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.6,0.8], PQ=[-0.2,0.0]: count:10, ill:0, Ang_MAX:7.431806e-04, Vol_MAX:1.043081e-04, P_MAX:4.450e-04, Q_MAX:3.073e-04, P_RMSE:1.620e-04, Q_RMSE:1.301e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.6,0.8], PQ=[0.0,0.2]: count:10, ill:0, Ang_MAX:1.264572e-03, Vol_MAX:1.647472e-04, P_MAX:1.709e-03, Q_MAX:6.635e-04, P_RMSE:2.862e-04, Q_RMSE:1.820e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[0.6,0.8], PQ=[0.2,0.4]: count:10, ill:0, Ang_MAX:2.658963e-04, Vol_MAX:9.059906e-05, P_MAX:2.148e-04, Q_MAX:2.814e-04, P_RMSE:9.996e-05, Q_RMSE:1.002e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.6,0.8], PQ=[0.4,0.6]: count:10, ill:0, Ang_MAX:7.587373e-04, Vol_MAX:1.012087e-04, P_MAX:5.309e-04, Q_MAX:2.732e-04, P_RMSE:1.874e-04, Q_RMSE:1.090e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.6,0.8], PQ=[0.6,0.8]: count:10, ill:0, Ang_MAX:1.659423e-03, Vol_MAX:2.846718e-04, P_MAX:2.061e-03, Q_MAX:1.208e-03, P_RMSE:4.127e-04, Q_RMSE:2.437e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[0.6,0.8], PQ=[0.8,1.0]: count:10, ill:0, Ang_MAX:5.214512e-04, Vol_MAX:7.283688e-05, P_MAX:5.227e-04, Q_MAX:5.719e-04, P_RMSE:1.790e-04, Q_RMSE:1.375e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.6,0.8], PQ=[1.0,1.2]: count:10, ill:0, Ang_MAX:7.397443e-03, Vol_MAX:5.588531e-04, P_MAX:4.817e-03, Q_MAX:3.548e-03, P_RMSE:1.205e-03, Q_RMSE:7.049e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[0.6,0.8], PQ=[1.2,1.4]: count:10, ill:0, Ang_MAX:4.192889e-04, Vol_MAX:1.521111e-04, P_MAX:1.093e-03, Q_MAX:7.533e-04, P_RMSE:2.305e-04, Q_RMSE:1.918e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[0.6,0.8], PQ=[1.4,1.6]: count:10, ill:0, Ang_MAX:5.219281e-04, Vol_MAX:6.520748e-05, P_MAX:7.162e-04, Q_MAX:4.719e-04, P_RMSE:1.939e-04, Q_RMSE:1.366e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.6,0.8], PQ=[1.6,1.8]: count:10, ill:0, Ang_MAX:8.342564e-04, Vol_MAX:1.049042e-04, P_MAX:5.182e-04, Q_MAX:5.411e-04, P_RMSE:1.948e-04, Q_RMSE:1.713e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.6,0.8], PQ=[1.8,2.0]: count:10, ill:0, Ang_MAX:1.918465e-03, Vol_MAX:1.213551e-04, P_MAX:1.298e-03, Q_MAX:6.113e-04, P_RMSE:3.295e-04, Q_RMSE:1.885e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[0.8,1.0], PQ=[-2.0,-1.8]: count:10, ill:0, Ang_MAX:3.923789e-03, Vol_MAX:8.406639e-04, P_MAX:5.591e-03, Q_MAX:4.049e-03, P_RMSE:8.926e-04, Q_RMSE:6.666e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[0.8,1.0], PQ=[-1.8,-1.6]: count:10, ill:0, Ang_MAX:7.672548e-03, Vol_MAX:8.682013e-04, P_MAX:6.422e-03, Q_MAX:2.477e-03, P_RMSE:1.379e-03, Q_RMSE:6.909e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[0.8,1.0], PQ=[-1.6,-1.4]: count:10, ill:0, Ang_MAX:6.139308e-03, Vol_MAX:6.525517e-04, P_MAX:3.443e-03, Q_MAX:1.680e-03, P_RMSE:9.940e-04, Q_RMSE:3.366e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[0.8,1.0], PQ=[-1.4,-1.2]: count:10, ill:0, Ang_MAX:6.092787e-04, Vol_MAX:9.369850e-05, P_MAX:4.635e-04, Q_MAX:2.751e-04, P_RMSE:1.495e-04, Q_RMSE:1.203e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.8,1.0], PQ=[-1.2,-1.0]: count:10, ill:0, Ang_MAX:1.751095e-03, Vol_MAX:1.282692e-04, P_MAX:1.115e-03, Q_MAX:6.150e-04, P_RMSE:2.885e-04, Q_RMSE:1.838e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[0.8,1.0], PQ=[-1.0,-0.8]: count:10, ill:0, Ang_MAX:2.698005e-04, Vol_MAX:8.141994e-05, P_MAX:4.092e-04, Q_MAX:3.308e-04, P_RMSE:1.287e-04, Q_RMSE:1.317e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.8,1.0], PQ=[-0.8,-0.6]: count:10, ill:0, Ang_MAX:1.887947e-03, Vol_MAX:2.382994e-04, P_MAX:1.549e-03, Q_MAX:5.939e-04, P_RMSE:3.091e-04, Q_RMSE:1.648e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[0.8,1.0], PQ=[-0.6,-0.4]: count:10, ill:0, Ang_MAX:1.984894e-03, Vol_MAX:4.824400e-04, P_MAX:3.852e-03, Q_MAX:2.164e-03, P_RMSE:7.251e-04, Q_RMSE:5.026e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[0.8,1.0], PQ=[-0.4,-0.2]: count:10, ill:0, Ang_MAX:4.314333e-03, Vol_MAX:4.688501e-04, P_MAX:5.232e-03, Q_MAX:2.599e-03, P_RMSE:8.802e-04, Q_RMSE:5.075e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[0.8,1.0], PQ=[-0.2,0.0]: count:10, ill:0, Ang_MAX:4.994571e-04, Vol_MAX:1.326799e-04, P_MAX:3.457e-04, Q_MAX:3.381e-04, P_RMSE:1.482e-04, Q_RMSE:1.428e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.8,1.0], PQ=[0.0,0.2]: count:10, ill:0, Ang_MAX:2.747923e-03, Vol_MAX:2.136230e-04, P_MAX:3.037e-03, Q_MAX:1.397e-03, P_RMSE:5.068e-04, Q_RMSE:3.273e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[0.8,1.0], PQ=[0.2,0.4]: count:10, ill:0, Ang_MAX:7.117093e-03, Vol_MAX:5.631447e-04, P_MAX:7.403e-03, Q_MAX:3.021e-03, P_RMSE:1.327e-03, Q_RMSE:6.276e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[0.8,1.0], PQ=[0.4,0.6]: count:10, ill:0, Ang_MAX:6.383777e-03, Vol_MAX:4.097223e-04, P_MAX:5.059e-03, Q_MAX:2.714e-03, P_RMSE:1.333e-03, Q_RMSE:6.749e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.700000
+X=[0.8,1.0], PQ=[0.6,0.8]: count:10, ill:0, Ang_MAX:2.721667e-03, Vol_MAX:2.493858e-04, P_MAX:2.229e-03, Q_MAX:1.179e-03, P_RMSE:4.638e-04, Q_RMSE:2.394e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[0.8,1.0], PQ=[0.8,1.0]: count:10, ill:0, Ang_MAX:3.573388e-03, Vol_MAX:1.173019e-03, P_MAX:5.143e-03, Q_MAX:4.833e-03, P_RMSE:9.240e-04, Q_RMSE:1.180e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[0.8,1.0], PQ=[1.0,1.2]: count:10, ill:0, Ang_MAX:5.421042e-04, Vol_MAX:9.846687e-05, P_MAX:4.166e-04, Q_MAX:5.034e-04, P_RMSE:1.407e-04, Q_RMSE:1.384e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.8,1.0], PQ=[1.2,1.4]: count:10, ill:0, Ang_MAX:5.546511e-04, Vol_MAX:1.535416e-04, P_MAX:3.733e-04, Q_MAX:3.592e-04, P_RMSE:1.405e-04, Q_RMSE:1.225e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.8,1.0], PQ=[1.4,1.6]: count:10, ill:0, Ang_MAX:3.565729e-03, Vol_MAX:4.116297e-04, P_MAX:2.906e-03, Q_MAX:1.067e-03, P_RMSE:5.952e-04, Q_RMSE:2.402e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[0.8,1.0], PQ=[1.6,1.8]: count:10, ill:0, Ang_MAX:9.920150e-04, Vol_MAX:9.644032e-05, P_MAX:7.871e-04, Q_MAX:3.845e-04, P_RMSE:2.207e-04, Q_RMSE:1.496e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[0.8,1.0], PQ=[1.8,2.0]: count:10, ill:0, Ang_MAX:1.200438e-03, Vol_MAX:2.471209e-04, P_MAX:7.759e-04, Q_MAX:8.386e-04, P_RMSE:2.452e-04, Q_RMSE:2.270e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[1.0,1.2], PQ=[-2.0,-1.8]: count:10, ill:0, Ang_MAX:5.582332e-03, Vol_MAX:5.570650e-04, P_MAX:4.280e-03, Q_MAX:2.896e-03, P_RMSE:9.115e-04, Q_RMSE:6.101e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[1.0,1.2], PQ=[-1.8,-1.6]: count:10, ill:0, Ang_MAX:3.151685e-03, Vol_MAX:1.038551e-03, P_MAX:4.180e-03, Q_MAX:5.338e-03, P_RMSE:6.123e-04, Q_RMSE:7.462e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[1.0,1.2], PQ=[-1.6,-1.4]: count:10, ill:0, Ang_MAX:1.735270e-03, Vol_MAX:2.806187e-04, P_MAX:1.500e-03, Q_MAX:8.165e-04, P_RMSE:3.775e-04, Q_RMSE:2.742e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.0,1.2], PQ=[-1.4,-1.2]: count:10, ill:0, Ang_MAX:2.401918e-03, Vol_MAX:2.975464e-04, P_MAX:2.510e-03, Q_MAX:2.039e-03, P_RMSE:5.112e-04, Q_RMSE:4.314e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[1.0,1.2], PQ=[-1.2,-1.0]: count:10, ill:0, Ang_MAX:8.091300e-03, Vol_MAX:5.990267e-04, P_MAX:7.534e-03, Q_MAX:5.398e-03, P_RMSE:1.294e-03, Q_RMSE:9.922e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.0,1.2], PQ=[-1.0,-0.8]: count:10, ill:0, Ang_MAX:1.017749e-03, Vol_MAX:1.767874e-04, P_MAX:7.371e-04, Q_MAX:6.969e-04, P_RMSE:1.867e-04, Q_RMSE:1.942e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[1.0,1.2], PQ=[-0.8,-0.6]: count:10, ill:0, Ang_MAX:9.739995e-04, Vol_MAX:5.416870e-04, P_MAX:1.214e-03, Q_MAX:1.530e-03, P_RMSE:2.629e-04, Q_RMSE:3.270e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.0,1.2], PQ=[-0.6,-0.4]: count:10, ill:0, Ang_MAX:7.770658e-04, Vol_MAX:1.806021e-04, P_MAX:7.822e-04, Q_MAX:6.853e-04, P_RMSE:2.311e-04, Q_RMSE:1.973e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[1.0,1.2], PQ=[-0.4,-0.2]: count:10, ill:0, Ang_MAX:5.095452e-03, Vol_MAX:4.042387e-04, P_MAX:4.293e-03, Q_MAX:2.299e-03, P_RMSE:1.151e-03, Q_RMSE:5.217e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.700000
+X=[1.0,1.2], PQ=[-0.2,0.0]: count:10, ill:0, Ang_MAX:1.079559e-03, Vol_MAX:3.858805e-04, P_MAX:7.103e-04, Q_MAX:8.674e-04, P_RMSE:2.020e-04, Q_RMSE:2.090e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[1.0,1.2], PQ=[0.0,0.2]: count:10, ill:0, Ang_MAX:8.543729e-04, Vol_MAX:1.738071e-04, P_MAX:9.847e-04, Q_MAX:9.848e-04, P_RMSE:2.198e-04, Q_RMSE:2.209e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[1.0,1.2], PQ=[0.2,0.4]: count:10, ill:0, Ang_MAX:6.301522e-03, Vol_MAX:4.290342e-04, P_MAX:3.592e-03, Q_MAX:1.968e-03, P_RMSE:8.785e-04, Q_RMSE:4.098e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.0,1.2], PQ=[0.4,0.6]: count:10, ill:0, Ang_MAX:9.223521e-04, Vol_MAX:1.153946e-04, P_MAX:7.100e-04, Q_MAX:7.095e-04, P_RMSE:2.051e-04, Q_RMSE:1.811e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[1.0,1.2], PQ=[0.6,0.8]: count:10, ill:0, Ang_MAX:8.929521e-03, Vol_MAX:9.592772e-04, P_MAX:7.182e-03, Q_MAX:3.897e-03, P_RMSE:1.423e-03, Q_RMSE:8.603e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.0,1.2], PQ=[0.8,1.0]: count:10, ill:0, Ang_MAX:2.367615e-03, Vol_MAX:1.798868e-04, P_MAX:1.588e-03, Q_MAX:7.180e-04, P_RMSE:3.561e-04, Q_RMSE:1.964e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.0,1.2], PQ=[1.0,1.2]: count:10, ill:0, Ang_MAX:5.889416e-03, Vol_MAX:6.010532e-04, P_MAX:3.516e-03, Q_MAX:3.435e-03, P_RMSE:1.071e-03, Q_RMSE:6.685e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[1.0,1.2], PQ=[1.2,1.4]: count:10, ill:0, Ang_MAX:5.057752e-04, Vol_MAX:1.038313e-04, P_MAX:5.210e-04, Q_MAX:5.459e-04, P_RMSE:1.735e-04, Q_RMSE:1.612e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[1.0,1.2], PQ=[1.4,1.6]: count:10, ill:0, Ang_MAX:6.537527e-03, Vol_MAX:5.581379e-04, P_MAX:7.436e-03, Q_MAX:5.108e-03, P_RMSE:1.324e-03, Q_RMSE:1.130e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.0,1.2], PQ=[1.6,1.8]: count:10, ill:0, Ang_MAX:1.871347e-03, Vol_MAX:1.498461e-04, P_MAX:1.050e-03, Q_MAX:4.427e-04, P_RMSE:3.215e-04, Q_RMSE:1.869e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.0,1.2], PQ=[1.8,2.0]: count:10, ill:0, Ang_MAX:4.905492e-03, Vol_MAX:7.747412e-04, P_MAX:3.155e-03, Q_MAX:2.238e-03, P_RMSE:1.138e-03, Q_RMSE:5.550e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.600000
+X=[1.2,1.4], PQ=[-2.0,-1.8]: count:10, ill:0, Ang_MAX:1.320481e-03, Vol_MAX:4.273653e-04, P_MAX:2.050e-03, Q_MAX:1.393e-03, P_RMSE:3.860e-04, Q_RMSE:4.069e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[1.2,1.4], PQ=[-1.8,-1.6]: count:10, ill:0, Ang_MAX:2.287924e-03, Vol_MAX:4.478693e-04, P_MAX:3.967e-03, Q_MAX:3.052e-03, P_RMSE:6.456e-04, Q_RMSE:5.073e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.2,1.4], PQ=[-1.6,-1.4]: count:10, ill:0, Ang_MAX:6.814301e-04, Vol_MAX:4.199743e-04, P_MAX:9.921e-04, Q_MAX:1.010e-03, P_RMSE:2.920e-04, Q_RMSE:2.887e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.2,1.4], PQ=[-1.4,-1.2]: count:10, ill:0, Ang_MAX:2.806142e-03, Vol_MAX:3.494024e-04, P_MAX:3.948e-03, Q_MAX:2.111e-03, P_RMSE:6.796e-04, Q_RMSE:4.625e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[1.2,1.4], PQ=[-1.2,-1.0]: count:10, ill:0, Ang_MAX:3.807634e-03, Vol_MAX:3.598928e-04, P_MAX:4.498e-03, Q_MAX:2.270e-03, P_RMSE:1.066e-03, Q_RMSE:5.563e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.600000
+X=[1.2,1.4], PQ=[-1.0,-0.8]: count:10, ill:0, Ang_MAX:6.407499e-04, Vol_MAX:1.424551e-04, P_MAX:4.816e-04, Q_MAX:4.533e-04, P_RMSE:1.705e-04, Q_RMSE:1.905e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[1.2,1.4], PQ=[-0.8,-0.6]: count:10, ill:0, Ang_MAX:8.646845e-04, Vol_MAX:2.155304e-04, P_MAX:1.550e-03, Q_MAX:1.122e-03, P_RMSE:2.967e-04, Q_RMSE:2.247e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.2,1.4], PQ=[-0.6,-0.4]: count:10, ill:0, Ang_MAX:1.134604e-03, Vol_MAX:3.213882e-04, P_MAX:1.060e-03, Q_MAX:1.017e-03, P_RMSE:2.597e-04, Q_RMSE:3.090e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.2,1.4], PQ=[-0.4,-0.2]: count:10, ill:0, Ang_MAX:2.925932e-03, Vol_MAX:2.912283e-04, P_MAX:2.350e-03, Q_MAX:1.814e-03, P_RMSE:4.317e-04, Q_RMSE:3.589e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.2,1.4], PQ=[-0.2,0.0]: count:10, ill:0, Ang_MAX:5.555928e-03, Vol_MAX:1.110315e-03, P_MAX:6.692e-03, Q_MAX:5.313e-03, P_RMSE:1.433e-03, Q_RMSE:1.222e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.700000
+X=[1.2,1.4], PQ=[0.0,0.2]: count:10, ill:0, Ang_MAX:2.775759e-03, Vol_MAX:2.329350e-04, P_MAX:2.397e-03, Q_MAX:1.347e-03, P_RMSE:4.478e-04, Q_RMSE:2.339e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.2,1.4], PQ=[0.2,0.4]: count:10, ill:0, Ang_MAX:1.626015e-03, Vol_MAX:3.536940e-04, P_MAX:1.378e-03, Q_MAX:1.332e-03, P_RMSE:4.045e-04, Q_RMSE:3.513e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[1.2,1.4], PQ=[0.4,0.6]: count:10, ill:0, Ang_MAX:2.816021e-03, Vol_MAX:8.828640e-04, P_MAX:5.074e-03, Q_MAX:4.994e-03, P_RMSE:9.406e-04, Q_RMSE:1.212e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.700000
+X=[1.2,1.4], PQ=[0.6,0.8]: count:10, ill:0, Ang_MAX:1.444578e-03, Vol_MAX:4.981756e-04, P_MAX:1.081e-03, Q_MAX:2.047e-03, P_RMSE:3.114e-04, Q_RMSE:3.963e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.2,1.4], PQ=[0.8,1.0]: count:10, ill:0, Ang_MAX:8.193851e-04, Vol_MAX:2.207756e-04, P_MAX:6.300e-04, Q_MAX:5.585e-04, P_RMSE:2.368e-04, Q_RMSE:1.979e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[1.2,1.4], PQ=[1.0,1.2]: count:10, ill:0, Ang_MAX:1.551688e-03, Vol_MAX:1.310110e-04, P_MAX:9.889e-04, Q_MAX:7.857e-04, P_RMSE:2.981e-04, Q_RMSE:2.044e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[1.2,1.4], PQ=[1.2,1.4]: count:10, ill:0, Ang_MAX:1.812026e-03, Vol_MAX:9.161234e-04, P_MAX:6.496e-03, Q_MAX:4.076e-03, P_RMSE:1.097e-03, Q_RMSE:7.671e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.2,1.4], PQ=[1.4,1.6]: count:10, ill:0, Ang_MAX:1.263410e-03, Vol_MAX:2.994537e-04, P_MAX:1.155e-03, Q_MAX:1.016e-03, P_RMSE:3.399e-04, Q_RMSE:2.951e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[1.2,1.4], PQ=[1.6,1.8]: count:10, ill:0, Ang_MAX:1.028687e-03, Vol_MAX:4.385710e-04, P_MAX:1.935e-03, Q_MAX:2.109e-03, P_RMSE:2.892e-04, Q_RMSE:3.772e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.2,1.4], PQ=[1.8,2.0]: count:10, ill:0, Ang_MAX:4.657507e-04, Vol_MAX:1.670122e-04, P_MAX:4.526e-04, Q_MAX:4.348e-04, P_RMSE:1.555e-04, Q_RMSE:1.726e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[1.4,1.6], PQ=[-2.0,-1.8]: count:10, ill:0, Ang_MAX:3.757387e-03, Vol_MAX:5.785227e-04, P_MAX:4.994e-03, Q_MAX:3.309e-03, P_RMSE:8.938e-04, Q_RMSE:7.361e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.700000
+X=[1.4,1.6], PQ=[-1.8,-1.6]: count:10, ill:0, Ang_MAX:2.788558e-03, Vol_MAX:1.645565e-03, P_MAX:8.418e-03, Q_MAX:5.420e-03, P_RMSE:1.432e-03, Q_RMSE:1.152e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[1.4,1.6], PQ=[-1.6,-1.4]: count:10, ill:0, Ang_MAX:4.254773e-03, Vol_MAX:7.734299e-04, P_MAX:4.105e-03, Q_MAX:4.276e-03, P_RMSE:7.327e-04, Q_RMSE:7.041e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.4,1.6], PQ=[-1.4,-1.2]: count:10, ill:0, Ang_MAX:1.740530e-03, Vol_MAX:2.812147e-04, P_MAX:2.329e-03, Q_MAX:1.870e-03, P_RMSE:5.009e-04, Q_RMSE:3.587e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.4,1.6], PQ=[-1.2,-1.0]: count:10, ill:0, Ang_MAX:2.881319e-03, Vol_MAX:2.100468e-04, P_MAX:1.619e-03, Q_MAX:7.866e-04, P_RMSE:4.723e-04, Q_RMSE:2.654e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.4,1.6], PQ=[-1.0,-0.8]: count:10, ill:0, Ang_MAX:6.182075e-03, Vol_MAX:6.182194e-04, P_MAX:4.136e-03, Q_MAX:3.755e-03, P_RMSE:1.108e-03, Q_RMSE:7.610e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.700000
+X=[1.4,1.6], PQ=[-0.8,-0.6]: count:10, ill:0, Ang_MAX:8.313060e-04, Vol_MAX:4.024506e-04, P_MAX:7.252e-04, Q_MAX:1.143e-03, P_RMSE:1.945e-04, Q_RMSE:2.371e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.4,1.6], PQ=[-0.6,-0.4]: count:10, ill:0, Ang_MAX:1.453996e-03, Vol_MAX:8.308887e-04, P_MAX:2.470e-03, Q_MAX:3.521e-03, P_RMSE:4.314e-04, Q_RMSE:5.418e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[1.4,1.6], PQ=[-0.4,-0.2]: count:10, ill:0, Ang_MAX:5.596071e-03, Vol_MAX:3.032804e-03, P_MAX:1.154e-02, Q_MAX:1.417e-02, P_RMSE:1.508e-03, Q_RMSE:1.967e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.900000
+X=[1.4,1.6], PQ=[-0.2,0.0]: count:10, ill:0, Ang_MAX:1.174971e-03, Vol_MAX:1.202822e-04, P_MAX:5.799e-03, Q_MAX:1.605e-03, P_RMSE:9.244e-04, Q_RMSE:3.494e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[1.4,1.6], PQ=[0.0,0.2]: count:10, ill:0, Ang_MAX:5.694747e-03, Vol_MAX:7.954836e-04, P_MAX:4.979e-03, Q_MAX:5.008e-03, P_RMSE:1.163e-03, Q_RMSE:1.109e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.700000
+X=[1.4,1.6], PQ=[0.2,0.4]: count:10, ill:0, Ang_MAX:5.621105e-03, Vol_MAX:5.440712e-04, P_MAX:4.164e-03, Q_MAX:3.126e-03, P_RMSE:1.106e-03, Q_RMSE:7.209e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.700000
+X=[1.4,1.6], PQ=[0.4,0.6]: count:10, ill:0, Ang_MAX:1.470059e-03, Vol_MAX:1.912117e-04, P_MAX:9.651e-04, Q_MAX:7.298e-04, P_RMSE:2.590e-04, Q_RMSE:1.920e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[1.4,1.6], PQ=[0.6,0.8]: count:10, ill:0, Ang_MAX:1.871198e-03, Vol_MAX:1.313686e-04, P_MAX:1.155e-03, Q_MAX:7.540e-04, P_RMSE:3.336e-04, Q_RMSE:2.017e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.4,1.6], PQ=[0.8,1.0]: count:10, ill:0, Ang_MAX:7.843673e-04, Vol_MAX:2.223253e-04, P_MAX:5.902e-04, Q_MAX:6.648e-04, P_RMSE:2.186e-04, Q_RMSE:2.098e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[1.4,1.6], PQ=[1.0,1.2]: count:10, ill:0, Ang_MAX:5.080432e-03, Vol_MAX:1.246095e-03, P_MAX:4.902e-03, Q_MAX:4.087e-03, P_RMSE:1.017e-03, Q_RMSE:7.178e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[1.4,1.6], PQ=[1.2,1.4]: count:10, ill:0, Ang_MAX:3.938258e-03, Vol_MAX:1.350999e-03, P_MAX:4.435e-03, Q_MAX:4.155e-03, P_RMSE:8.920e-04, Q_RMSE:8.156e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.4,1.6], PQ=[1.4,1.6]: count:10, ill:0, Ang_MAX:7.799268e-04, Vol_MAX:1.040697e-04, P_MAX:1.036e-03, Q_MAX:5.894e-04, P_RMSE:2.415e-04, Q_RMSE:2.088e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.4,1.6], PQ=[1.6,1.8]: count:10, ill:0, Ang_MAX:8.974940e-03, Vol_MAX:2.892494e-03, P_MAX:1.687e-02, Q_MAX:1.582e-02, P_RMSE:2.969e-03, Q_RMSE:3.296e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.900000
+X=[1.4,1.6], PQ=[1.8,2.0]: count:10, ill:0, Ang_MAX:1.706660e-03, Vol_MAX:1.190782e-03, P_MAX:3.244e-03, Q_MAX:4.466e-03, P_RMSE:6.615e-04, Q_RMSE:7.689e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.600000
+X=[1.6,1.8], PQ=[-2.0,-1.8]: count:10, ill:0, Ang_MAX:1.707882e-03, Vol_MAX:2.527118e-03, P_MAX:5.766e-03, Q_MAX:9.807e-03, P_RMSE:1.174e-03, Q_RMSE:1.485e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[1.6,1.8], PQ=[-1.8,-1.6]: count:10, ill:0, Ang_MAX:1.184732e-03, Vol_MAX:1.707077e-04, P_MAX:8.101e-04, Q_MAX:6.846e-04, P_RMSE:3.027e-04, Q_RMSE:2.758e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):1.000000
+X=[1.6,1.8], PQ=[-1.6,-1.4]: count:10, ill:0, Ang_MAX:1.957890e-02, Vol_MAX:1.856327e-03, P_MAX:1.391e-02, Q_MAX:7.674e-03, P_RMSE:3.317e-03, Q_RMSE:1.540e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.500000
+X=[1.6,1.8], PQ=[-1.4,-1.2]: count:10, ill:0, Ang_MAX:5.429626e-03, Vol_MAX:2.093434e-03, P_MAX:1.133e-02, Q_MAX:1.136e-02, P_RMSE:1.835e-03, Q_RMSE:2.427e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.800000, Success rate (<0.001):0.600000
+X=[1.6,1.8], PQ=[-1.2,-1.0]: count:10, ill:0, Ang_MAX:6.940335e-03, Vol_MAX:1.402736e-03, P_MAX:1.321e-02, Q_MAX:1.395e-02, P_RMSE:2.195e-03, Q_RMSE:2.202e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.800000
+X=[1.6,1.8], PQ=[-1.0,-0.8]: count:10, ill:0, Ang_MAX:7.655770e-03, Vol_MAX:3.449798e-03, P_MAX:1.702e-02, Q_MAX:1.787e-02, P_RMSE:2.968e-03, Q_RMSE:2.601e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.700000
+X=[1.6,1.8], PQ=[-0.8,-0.6]: count:10, ill:0, Ang_MAX:4.914701e-03, Vol_MAX:8.385181e-04, P_MAX:5.951e-03, Q_MAX:3.082e-03, P_RMSE:1.176e-03, Q_RMSE:6.113e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.700000
+X=[1.6,1.8], PQ=[-0.6,-0.4]: count:10, ill:0, Ang_MAX:6.609470e-03, Vol_MAX:1.922250e-03, P_MAX:1.592e-02, Q_MAX:1.036e-02, P_RMSE:2.735e-03, Q_RMSE:2.013e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.500000
+X=[1.6,1.8], PQ=[-0.4,-0.2]: count:10, ill:0, Ang_MAX:8.649528e-03, Vol_MAX:1.994967e-03, P_MAX:1.983e-02, Q_MAX:2.036e-02, P_RMSE:2.621e-03, Q_RMSE:2.585e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.800000
+X=[1.6,1.8], PQ=[-0.2,0.0]: count:10, ill:0, Ang_MAX:1.036486e-02, Vol_MAX:9.485483e-04, P_MAX:8.144e-03, Q_MAX:5.033e-03, P_RMSE:1.830e-03, Q_RMSE:1.118e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.500000
+X=[1.6,1.8], PQ=[0.0,0.2]: count:10, ill:0, Ang_MAX:8.044065e-03, Vol_MAX:2.474189e-03, P_MAX:2.016e-02, Q_MAX:1.841e-02, P_RMSE:3.841e-03, Q_RMSE:3.573e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.800000, Success rate (<0.001):0.500000
+X=[1.6,1.8], PQ=[0.2,0.4]: count:10, ill:0, Ang_MAX:9.029894e-03, Vol_MAX:1.603246e-03, P_MAX:9.611e-03, Q_MAX:1.079e-02, P_RMSE:1.648e-03, Q_RMSE:1.588e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.800000
+X=[1.6,1.8], PQ=[0.4,0.6]: count:10, ill:0, Ang_MAX:1.729935e-03, Vol_MAX:1.958609e-04, P_MAX:1.241e-03, Q_MAX:1.057e-03, P_RMSE:3.626e-04, Q_RMSE:2.628e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[1.6,1.8], PQ=[0.6,0.8]: count:10, ill:0, Ang_MAX:2.164960e-03, Vol_MAX:4.413128e-04, P_MAX:1.314e-03, Q_MAX:1.563e-03, P_RMSE:5.043e-04, Q_RMSE:3.942e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.600000
+X=[1.6,1.8], PQ=[0.8,1.0]: count:10, ill:0, Ang_MAX:9.604096e-03, Vol_MAX:1.253366e-03, P_MAX:9.701e-03, Q_MAX:5.462e-03, P_RMSE:1.590e-03, Q_RMSE:9.514e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.700000
+X=[1.6,1.8], PQ=[1.0,1.2]: count:10, ill:0, Ang_MAX:8.224010e-03, Vol_MAX:1.753211e-03, P_MAX:7.718e-03, Q_MAX:6.739e-03, P_RMSE:1.789e-03, Q_RMSE:1.647e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.700000
+X=[1.6,1.8], PQ=[1.2,1.4]: count:10, ill:0, Ang_MAX:8.580386e-04, Vol_MAX:7.357597e-04, P_MAX:3.964e-03, Q_MAX:3.912e-03, P_RMSE:5.678e-04, Q_RMSE:6.340e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.6,1.8], PQ=[1.4,1.6]: count:10, ill:0, Ang_MAX:1.256034e-02, Vol_MAX:1.075864e-03, P_MAX:1.257e-02, Q_MAX:9.749e-03, P_RMSE:2.184e-03, Q_RMSE:1.331e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.900000
+X=[1.6,1.8], PQ=[1.6,1.8]: count:10, ill:0, Ang_MAX:1.027435e-03, Vol_MAX:2.975464e-04, P_MAX:1.868e-03, Q_MAX:1.279e-03, P_RMSE:4.248e-04, Q_RMSE:3.320e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.6,1.8], PQ=[1.8,2.0]: count:10, ill:0, Ang_MAX:2.441764e-03, Vol_MAX:1.175761e-03, P_MAX:1.997e-03, Q_MAX:3.270e-03, P_RMSE:4.954e-04, Q_RMSE:5.331e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.8,2.0], PQ=[-2.0,-1.8]: count:10, ill:0, Ang_MAX:2.994829e-02, Vol_MAX:5.405068e-03, P_MAX:2.447e-02, Q_MAX:2.423e-02, P_RMSE:6.141e-03, Q_RMSE:4.531e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.800000, Success rate (<0.001):0.200000
+X=[1.8,2.0], PQ=[-1.8,-1.6]: count:10, ill:0, Ang_MAX:3.231168e-03, Vol_MAX:1.733661e-03, P_MAX:9.660e-03, Q_MAX:8.929e-03, P_RMSE:1.724e-03, Q_RMSE:1.476e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.500000
+X=[1.8,2.0], PQ=[-1.6,-1.4]: count:10, ill:0, Ang_MAX:6.377413e-03, Vol_MAX:5.445361e-03, P_MAX:2.369e-02, Q_MAX:2.534e-02, P_RMSE:3.671e-03, Q_RMSE:4.051e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.900000
+X=[1.8,2.0], PQ=[-1.4,-1.2]: count:10, ill:0, Ang_MAX:3.954947e-03, Vol_MAX:2.131224e-03, P_MAX:9.358e-03, Q_MAX:7.410e-03, P_RMSE:1.643e-03, Q_RMSE:1.250e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.8,2.0], PQ=[-1.2,-1.0]: count:10, ill:0, Ang_MAX:4.253000e-03, Vol_MAX:3.013134e-03, P_MAX:7.708e-03, Q_MAX:8.835e-03, P_RMSE:1.788e-03, Q_RMSE:2.143e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.400000
+X=[1.8,2.0], PQ=[-1.0,-0.8]: count:10, ill:0, Ang_MAX:2.477169e-03, Vol_MAX:3.442764e-04, P_MAX:3.177e-03, Q_MAX:1.647e-03, P_RMSE:6.068e-04, Q_RMSE:4.334e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[1.8,2.0], PQ=[-0.8,-0.6]: count:10, ill:0, Ang_MAX:4.937112e-03, Vol_MAX:2.048254e-03, P_MAX:7.197e-03, Q_MAX:1.332e-02, P_RMSE:1.444e-03, Q_RMSE:2.187e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.700000
+X=[1.8,2.0], PQ=[-0.6,-0.4]: count:10, ill:0, Ang_MAX:8.879691e-03, Vol_MAX:1.922846e-03, P_MAX:2.001e-02, Q_MAX:2.052e-02, P_RMSE:2.954e-03, Q_RMSE:2.946e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.500000
+X=[1.8,2.0], PQ=[-0.4,-0.2]: count:10, ill:0, Ang_MAX:2.863616e-03, Vol_MAX:1.115680e-03, P_MAX:6.233e-03, Q_MAX:6.920e-03, P_RMSE:1.051e-03, Q_RMSE:1.358e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.700000
+X=[1.8,2.0], PQ=[-0.2,0.0]: count:10, ill:0, Ang_MAX:3.685236e-03, Vol_MAX:6.302595e-04, P_MAX:2.255e-03, Q_MAX:2.183e-03, P_RMSE:6.986e-04, Q_RMSE:6.427e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.500000
+X=[1.8,2.0], PQ=[0.0,0.2]: count:10, ill:0, Ang_MAX:1.063395e-02, Vol_MAX:2.534747e-03, P_MAX:2.874e-02, Q_MAX:2.990e-02, P_RMSE:4.624e-03, Q_RMSE:4.200e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.600000
+X=[1.8,2.0], PQ=[0.2,0.4]: count:10, ill:0, Ang_MAX:1.525904e-02, Vol_MAX:7.577777e-03, P_MAX:3.115e-02, Q_MAX:3.971e-02, P_RMSE:5.691e-03, Q_RMSE:5.789e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.700000
+X=[1.8,2.0], PQ=[0.4,0.6]: count:10, ill:0, Ang_MAX:2.638549e-03, Vol_MAX:2.672672e-04, P_MAX:2.036e-03, Q_MAX:2.146e-03, P_RMSE:5.428e-04, Q_RMSE:3.552e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.800000
+X=[1.8,2.0], PQ=[0.6,0.8]: count:10, ill:0, Ang_MAX:3.700554e-03, Vol_MAX:8.679628e-04, P_MAX:3.562e-03, Q_MAX:3.674e-03, P_RMSE:6.534e-04, Q_RMSE:8.547e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.900000
+X=[1.8,2.0], PQ=[0.8,1.0]: count:10, ill:0, Ang_MAX:3.423452e-03, Vol_MAX:4.570484e-04, P_MAX:2.234e-03, Q_MAX:2.293e-03, P_RMSE:7.374e-04, Q_RMSE:5.306e-04, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.600000
+X=[1.8,2.0], PQ=[1.0,1.2]: count:10, ill:0, Ang_MAX:5.341008e-03, Vol_MAX:3.923774e-03, P_MAX:1.587e-02, Q_MAX:1.409e-02, P_RMSE:3.127e-03, Q_RMSE:2.812e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.600000
+X=[1.8,2.0], PQ=[1.2,1.4]: count:10, ill:0, Ang_MAX:7.626205e-03, Vol_MAX:2.078891e-03, P_MAX:6.617e-03, Q_MAX:7.128e-03, P_RMSE:1.421e-03, Q_RMSE:1.303e-03, Success rate (<0.1):1.000000, Success rate (<0.01):1.000000, Success rate (<0.001):0.700000
+X=[1.8,2.0], PQ=[1.4,1.6]: count:10, ill:0, Ang_MAX:1.216063e-02, Vol_MAX:1.245022e-03, P_MAX:1.744e-02, Q_MAX:1.367e-02, P_RMSE:3.759e-03, Q_RMSE:2.798e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.800000, Success rate (<0.001):0.500000
+X=[1.8,2.0], PQ=[1.6,1.8]: count:10, ill:0, Ang_MAX:8.914962e-03, Vol_MAX:3.094673e-03, P_MAX:1.596e-02, Q_MAX:1.607e-02, P_RMSE:3.356e-03, Q_RMSE:2.619e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.900000, Success rate (<0.001):0.500000
+X=[1.8,2.0], PQ=[1.8,2.0]: count:10, ill:0, Ang_MAX:1.722845e-02, Vol_MAX:4.440427e-03, P_MAX:2.053e-02, Q_MAX:1.791e-02, P_RMSE:4.125e-03, Q_RMSE:3.939e-03, Success rate (<0.1):1.000000, Success rate (<0.01):0.800000, Success rate (<0.001):0.600000
+
+===== Region Mismatch Summary =====
+Region & Samples & Avg. mismatch & Worst mismatch & Success rate (<0.1) & Success rate (<0.01) & Success rate (<0.001)
+ID & 1000 & 3.509149e-04 & 7.668018e-03 & 1.000000 & 1.000000 & 0.969000
+OOD-X & 1000 & 1.092093e-03 & 3.971344e-02 & 1.000000 & 0.981000 & 0.825000
+OOD-PQ & 1000 & 3.709480e-04 & 6.421854e-03 & 1.000000 & 1.000000 & 0.964000
+OOD-X+PQ & 1000 & 1.163824e-03 & 2.533581e-02 & 1.000000 & 0.981000 & 0.819000
+Heatmap CSV saved: ieee14.csv
+Testing ill-conditioned: running success metrics
+Ill-conditioned mismatch CSV saved: IEEE14_ill.csv
+
+===== Ill-Conditioned Test Summary =====
+Samples & Maximal mismatch & Minimal mismatch & Avg. mismatch & Success rate (<0.1) & Success rate (<0.01) & Avg. mismatch With N-R PF refine & Success rate With N-R PF refine & Average N-R PF Iteration time
+100 & 4.287574e-02 & 2.100121e-04 & 6.631890e-03 & 1.000000 & 0.760000 & 8.955566e-07 & 6.000000e-02 & 1.466667e+01
